@@ -1,0 +1,113 @@
+body{
+  margin: 0;
+  max-width: 100%;
+  font-family: 'Lato' ;
+}
+/*HEADER*/
+header{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  text-align: right;
+  background-color:#572349 ;
+}
+
+.nav{
+  margin: 0 ;
+  list-style: none;
+  padding: 0;
+}
+
+.link{
+  display: inline-block;
+  padding: 40.4px 0;
+}
+
+.link:last-child{
+  margin-right: 40px;
+}
+
+.nav_link{
+  color: #fec059;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+/*SECTION1*/
+.section1{
+  background: url(https://wallpaperaccess.com/full/307324.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 265px 0;
+}
+
+.title{
+  margin: 0 auto;
+  color: #fff;
+  font-size: 100px;
+  text-align: center;
+}
+
+/*SECTION2*/
+.section2{
+  background-image: linear-gradient(to bottom, #fdbc54, #fd9a57 );
+  padding: 50px;
+}
+
+.list{
+  box-shadow: 0 0 25px  #000;
+  margin: 0;
+  padding-left: 25px;
+  padding-top: 9px;
+  line-height: 2.5;
+}
+.item{
+  color: #663399;
+}
+.item:last-child{
+  color: #000;
+}
+
+.blog{
+  margin-top: 50px;
+}
+
+img{
+  width: 315px;
+  height: 200px;   
+}
+
+.img1{
+  box-sizing: border-box;
+  display: inline-block;;
+  margin: 0;
+  border: 1px solid;
+  padding-bottom: 30px;
+}
+
+figcaption{
+  text-shadow: 0 0 2px #ba66f1;
+  text-align: center;
+  padding-top: 17px;      
+}
+  
+.footer{
+  height: 50px;
+  border-top: 1px solid #fff;
+  background-color: #8e3457;
+}
+  
+
+.footer_title{
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  padding: 15.9px 0;
+}
+
+
+
+
+
+
