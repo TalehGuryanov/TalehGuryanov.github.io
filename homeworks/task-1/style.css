@@ -37,13 +37,12 @@ header{
 /*SECTION1*/
 .section1{
   background: url(https://wallpaperaccess.com/full/307324.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   padding: 265px 0;
 }
 
 .title{
-  margin: 0 auto;
   color: #fff;
   font-size: 100px;
   text-align: center;
@@ -64,6 +63,7 @@ header{
 }
 .item{
   color: #663399;
+  display: block;
 }
 .item:last-child{
   color: #000;
@@ -71,16 +71,21 @@ header{
 
 .blog{
   margin-top: 50px;
+  width: 70%;
 }
 
-img{
-  width: 315px;
-  height: 200px;   
+.inner{
+  margin: 0 -10px;
+  font-size: 0;
+}
+
+.features{
+  width: 33.3333%;
+  padding: 0 10px;
+  display: inline-block;
 }
 
 .img1{
-  box-sizing: border-box;
-  display: inline-block;;
   margin: 0;
   border: 1px solid;
   padding-bottom: 30px;
@@ -89,7 +94,8 @@ img{
 figcaption{
   text-shadow: 0 0 2px #ba66f1;
   text-align: center;
-  padding-top: 17px;      
+  padding-top: 17px;  
+  font-size: 16px;    
 }
   
 .footer{
@@ -106,7 +112,38 @@ figcaption{
   padding: 15.9px 0;
 }
 
+@media screen and (max-width: 992px){
+  .blog{
+    width: 100%;
+  }
 
+  .features{
+    width: 50%;
+  }
+
+  .features:nth-child(n+2){
+    margin-top: 10px;
+  }
+
+}
+
+@media screen and (max-width: 740px){
+  .blog{
+    width: 100%;
+  }
+
+  .features{
+    width: 100%;
+  }
+
+  .features+.features{
+    margin-top: 10px;
+  }
+
+  img{
+    width: 100%;
+  }
+}
 
 
 
