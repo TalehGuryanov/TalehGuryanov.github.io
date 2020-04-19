@@ -103,9 +103,9 @@ strong{
   background-color: #fffcf3;
 }
 
-h2{
+.container h2{
   text-align: center;
-  margin-top: 0;
+  margin-bottom: 30px;
   font-size: 30px;
   color: #3d3c38;
 }
@@ -126,24 +126,30 @@ h2+p{
 .list_menu{
   display: flex;
   flex-wrap: wrap;
-  margin-top: 50px;
+  margin: 50px 0 -12.5px;
 }
 
 
-.list_menu li{
-  border: 1px solid #e1ded7;
-  width: 30%;
-  text-align: center;
+.list{
+  width: 33.3333%;
+  padding: 0 12.5px;
+}
+
+.list:nth-child(n+4){
+  margin-top: 10px;
+}
+
+.list div{
   padding: 20px 5px;
-  margin-left: 25px;
-  margin-bottom: 25px;
+  border: 1px solid #e1ded7;
+  text-align: center;
 }
 
-.list_menu li:hover{
+.list:hover{
   border: 1px solid #76b598;
 }
 
-.list_menu li:hover h4{
+.list:hover h4{
   color: #19e189;
 }
 
@@ -152,8 +158,11 @@ h2+p{
   height: 30px;
 }
 
+.container h4{
+  margin: 10px 0;
+}
+
 h4+p{
-  margin: 0;
   font-size: 12px;
   color: #afaba8;
   line-height: 1.5;
@@ -176,6 +185,7 @@ h4+p{
   float: left;
   width: 25%;
   text-align: center;
+  padding: 0 12.5px;
 }
 
 h3{
@@ -186,22 +196,18 @@ h3{
 }
 
 .team{
-  margin-top: 50px;
+  margin: 50px 0 -12.5px;
+
 }
 
 figure{
-  margin-left: 20px;
+  margin: 0;
   font-size: 0;
-  width: 200px;
  }
 
  .img_team{
   background-color: #9d9e99;
   padding: 10px 10px 30px;
-}
-
-.team_list img{
-  width: 100%;
 }
 
 figcaption{
@@ -233,3 +239,66 @@ footer p{
   text-align: center;
   padding: 30px 0;
 }
+
+
+@media screen and (max-width: 992px){
+  .header{
+    padding: 30px 20px;
+  }
+}
+
+@media screen and (max-width: 740px){
+  .header{
+    padding: 30px 20px;
+  }
+
+  .list{
+    width: 50%;
+  }
+
+  .list:nth-child(n+3){
+    margin-top: 10px;
+  }
+
+  .team_list{
+    width: 50%;
+  }
+
+  .team_list:nth-child(n+3){
+    margin-top: 10px;
+  }
+
+  .section_1{
+    padding: 150px 0;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 540px){
+  .header{
+    padding: 30px 20px;
+  }
+
+  .list{
+    width: 100%;
+  }
+
+  .list+.list{
+    margin-top: 10px;
+  }
+
+  .section_1{
+    padding: 150px 0;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
+}
+
+
+
