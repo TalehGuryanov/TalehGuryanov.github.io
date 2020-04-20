@@ -1,0 +1,80 @@
+body{
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+}
+
+.wrapper{
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside{
+  flex-basis: 250px;
+  background-color: #dbd02e;
+  padding: 20px;
+}
+
+
+main{
+  flex-basis: calc(100% - 250px);
+  background-color: #f8f18a;
+  padding: 20px;
+}
+
+
+.l-nav__item {
+	display: block;
+}
+
+.l-nav__item + .l-nav__item {
+	margin-top: 20px;
+}
+
+.link {
+	display: block;
+	padding: 5px 0;
+	font-size: 18px;
+	backface-visibility: hidden;
+}
+
+.link:hover .link-text {
+	transform: translateX(5px);
+}
+
+.link:hover .link-icon {
+	transform: scale(1.15);
+}
+
+.link-icon {
+	vertical-align: middle;
+	transition: transform .2s ease-out;
+}
+
+.link-text {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5px;
+	transition: transform .2s ease-out;
+}
+
+
+.l_cards{
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.l_cards_item{
+  flex-basis: 33.3333%;
+  padding: 15px;
+}
+
+figcaption{
+  margin-top: 10px;
+}
+
+@media screen and 
+
+
+
