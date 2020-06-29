@@ -1,55 +1,37 @@
 'use strict'
 
 const container = document.getElementsByClassName('container')[0];
+const preloader = document.getElementById('cube-loader');
 let maleUsers = [];
 let femaleUsers = [];
-const requestForUsers = function(success, error, url){
-  const xhr = new XMLHttpRequest();
-  xhr.open('GET', "https://randomuser.me/api/?results=3&gender" + url);
-  xhr.onreadystatechange = function(){
-
-    if(this.readyState == 4){
-      if (xhr.status >= 200 && xhr.status < 300){
-        success((JSON.parse(xhr.response)));
-      } else{
-        error({
-          code: xhr.status,
-          message: xhr.responseText
-        });   
-      }
-    }
-  }
-
-  xhr.send();
+const requestForUsers = function(method, body = null, url){
+  return fetch("https://randomuser.me/api/?results=3&gender" + url)
+    .then(res => {
+      return res.json()
+    })
 };
 
-requestForUsers(
-  function(x){
-    console.log(x);
-    maleUsers = x.results;
+setTimeout(function(){
+  requestForUsers('GET', "=female")
+  .then(function({results}){
+    console.log(results);
+    maleUsers = results;
     if(maleUsers.length && femaleUsers.length){
       getUsersData()
     }
-  },
-  function(y){
-    console.log(y);
-  },
-  "=female"
-);
+  },)
+}, 1000);
 
-requestForUsers(
-  function(x){
-    console.log(x);
-    femaleUsers = x.results;
+setTimeout(function(){
+  requestForUsers('GET', "=male")
+  .then(function({results}){
+    console.log(results);
+    femaleUsers = results;
     if(maleUsers.length && femaleUsers.length){
       getUsersData()
     }
-  },
-  function(y){
-    console.log(y);
-  },
-  "=male"
-);
+  },)
+}, 1000);
 
 
 let getUsersData = function(){
@@ -76,4 +58,5 @@ let getUsersData = function(){
     ul.appendChild(li);
   }
   container.appendChild(ul);
+  preloader.classList.add('_visible');
 }
