@@ -317,11 +317,11 @@ nav {
   }
 
   .li-social__item {
-    width: 33.3333%;
+    width: 100%;
   }
 
-  .li-social__item:nth-child(n+3) {
-    margin-top: 0;
+  .li-social__item + .li-social__item {
+    margin-top: 10px;
   }
 
   .b-info.--bottom {
