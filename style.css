@@ -171,9 +171,11 @@ body {
   padding: 0 10px;
 }
 
-.li-social__item:hover .li-social__link {
-  background-color: #f9f9f9;
-  transform: scale(1.2);
+@media screen and (min-width: 600px) {
+  .li-social__item:hover .li-social__link {
+    background-color: #f9f9f9;
+    transform: scale(1.2);
+  }
 }
 
 .li-social__link {
@@ -222,6 +224,10 @@ body {
   margin-bottom: 15px;
   font-size: 18px;
   line-height: 1.5;
+}
+
+.b-summary__text a {
+  font-weight: 700;
 }
 
 .li-experience {
