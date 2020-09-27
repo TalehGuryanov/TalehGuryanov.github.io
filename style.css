@@ -317,7 +317,7 @@ nav {
   }
 
   .li-social__item {
-    width: 20%;
+    width: 33.3333%;
   }
 
   .li-social__item:nth-child(n+3) {
