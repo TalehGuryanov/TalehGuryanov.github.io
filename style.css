@@ -59,13 +59,14 @@ body {
   pointer-events: none;
   position: fixed;
   z-index: 100;
-  visibility: hidden;
+  opacity: 0;
   overflow-y: auto;
+  transition: opacity .2s;
 }
 
 .n-nav.--open {
-  visibility: visible;
   pointer-events: auto;
+  opacity: 1;
 }
 
 .li-menu {
