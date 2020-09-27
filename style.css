@@ -24,7 +24,7 @@ body {
 
 .btn-close {
   width: 50px;
-  height: 50px;
+  height: calc(100% + 3px);
   visibility: hidden;
   background-color: #fff;
   transition: background-color .2s;
@@ -61,7 +61,6 @@ body {
   z-index: 100;
   visibility: hidden;
   overflow-y: auto;
-  transition: visibility .2s;
 }
 
 .n-nav.--open {
@@ -365,7 +364,7 @@ body {
   }
 
   .b-header__name {
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 5px;
   }
 
