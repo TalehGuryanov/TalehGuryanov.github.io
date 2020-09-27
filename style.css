@@ -293,37 +293,43 @@ nav {
   }
 }
 
-/* @media screen and (max-width: 600px) {
-  body {
-    padding-top: 20px;
-  }
-
-  .container {
-    padding: 0 10px;
-  }
-
-  .b-header {
-    padding-right: 25px;
-    padding-top: 0;
-  }
-
-  .b-header__name {
-    font-size: 30px;
-  }
-
-  .b-header__profession {
-    font-size: 16px;
-  }
-} */
-
 @media screen and (max-width: 480px) {
+
+  .b-content {
+    display: block;
+  }
+
+  .b-header__present {
+    width: 100%;
+  }
+
   .b-header__name {
-    font-size: 20px;
+    font-size: 40px;
     margin-bottom: 5px;
   }
 
   .b-header__profession {
-    font-size: 12px;
+    font-size: 20px;
+  }
+
+  .b-img {
+    display: none;
+  }
+
+  .li-social__item {
+    width: 20%;
+  }
+
+  .li-social__item:nth-child(n+3) {
+    margin-top: 0;
+  }
+
+  .b-info.--bottom {
+    width: 100%;
+  }
+
+  .b-summary__title {
+    font-size: 25px;
   }
 }
 
