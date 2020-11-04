@@ -1,0 +1,349 @@
+.header {
+  background-color: $light;
+}
+
+.b-header {
+
+  &__wrapper {
+    padding: 15px 0 20px;
+  }
+
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 35px;
+  }
+
+  &__lang {
+    display: flex;
+  }
+
+  &__lang-title {
+    @include text(16px, 300, 1.25, $black-08, $thirdFont);
+    margin-right: 13px;
+  }
+
+  &__lang-select {
+    @include text(16px, 400, 1.25, $black-08, $thirdFont);
+    padding-right: 10px;
+    border: none;
+    appearance: none;
+    background: url(../img/icon/select-arrow.svg) right no-repeat;
+  }
+
+  &__phones {
+    display: flex;
+    align-items: center;
+  }
+
+  &__phones-link {
+    @include text(14px, 400, 1.43, $black-05);
+    transition: font-weight .3s, color .3s;
+
+    &:hover {
+      font-weight: 600;
+      color: $black;
+    }
+
+    &::before {
+      content: attr(data-weight);
+      display: block;
+      font-weight: 700;
+      height: 0;
+      overflow: hidden;
+      visibility: hidden;
+    }
+  }
+
+  &__phones-icons {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px;
+  }
+
+  &__phones-a1 {
+    @include mask-img('../img/icon/a1.svg', 20px, 17px, $black-05);
+    transition: background-color .3s;
+
+    &:hover {
+      background-color: #fc1d1d;
+    }
+  }
+
+  &__phones-viber {
+    @include mask-img('../img/icon/viber.svg', 20px, 20px, $black-05);
+    transition: background-color .3s;
+
+    &:hover {
+      background-color: #d71dfc;
+      opacity: 1;
+    }
+  }
+
+  &__phones-watsapp {
+    @include mask-img('../img/icon/wats-app.svg', 20px, 20px, $black-05);
+    transition: background-color .3s;
+
+    &:hover {
+      background-color: #56fc23;
+      opacity: 1;
+    }
+  }
+
+  &__phones-mts {
+    @include mask-img('../img/icon/mts.svg', 20px, 20px, $black-05);
+    transition: background-color .3s;
+    margin-left: 15px;
+
+    &:hover {
+      background-color: #f50d0d;
+      opacity: 1;
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+
+    .b-header__phones {
+      display: none;
+    }
+  }
+}
+
+.btn-eye {
+  @include mask-img('../img/icon/view.svg', 32px, 22px, $black-08);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: background-color .3s;
+
+  &:hover {
+    background-color: $accent;
+  }
+}
+
+.n-nav {
+  display: flex;
+}
+
+.li-menu {
+  display: flex;
+  margin-right: 50px;
+
+  &__item + &__item {
+    margin-left: 50px;
+  }
+
+  &__item:hover &__link {
+    color: $accent;
+  }
+
+  &__link {
+    @include text(14px, 500, 1.43, $black-075);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    transition: color .3s;
+  }
+}
+
+.btn-menu {
+  display: none;
+
+  span {
+    width: 30px;
+    height: 3px;
+    background-color: $accent;
+    display: block;
+  }
+
+  span + span {
+    margin-top: 5px;
+  }
+}
+
+.btn-close {
+  position: absolute;
+  top: 0;
+  left: -40px;
+  display: none;
+  border: 2px solid $black;
+  width: 40px;
+  height: 40px;
+  background-color: $light;
+
+  &::before, &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 20px;
+    height: 2px;
+    background-color: $black;
+  }
+
+  &::before {
+    transform: rotate(45deg);
+  }
+
+  &::after {
+    transform: rotate(-45deg);
+  }
+}
+
+.btn-search {
+  @include mask-img('../img/icon/search.svg', 17px, 17px, $black-075);
+}
+
+@include media-tablet {
+
+  .b-header {
+
+    &__bottom {
+      display: block;
+    }
+
+    &__logo {
+      margin-bottom: 15px;
+    }
+  }
+
+  .n-nav {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .li-menu {
+    margin-right: 0;
+  }
+
+  .li-menu__item + .li-menu__item {
+    margin-left: 40px;
+  }
+
+  .btn-eye {
+    position: static;
+  }
+}
+
+@include media-mobile {
+
+  .btn-menu {
+    display: block;
+  }
+
+  .btn-close {
+    display: block;
+  }
+
+  .b-header {
+
+    &__phones {
+      display: none;
+    }
+
+    &__menu {
+      pointer-events: none;
+      visibility: hidden;
+      opacity: 0;
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: $black-05;
+      overflow-y: auto;
+      z-index: 100;
+      transition: opacity .3s, visibility .3s;
+
+      .b-header__phones {
+        display: block;
+        margin-bottom: 40px;
+
+        &-link {
+          font-size: 25px;
+          margin-bottom: 10px;
+        }
+
+        &-icons {
+          margin: 0 auto 15px;
+          width: 100%;
+        }
+
+        &-a1, &-viber, &-watsapp, &-mts {
+          width: 40px;
+          height: 40px;
+        }
+
+        &-mts {
+          margin: 0 auto;
+        }
+      }
+    }
+
+    &__bottom {
+      display: flex;
+    }
+  }
+
+  .btn-search {
+    margin-bottom: 30px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .n-nav {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #fff;
+    width: calc(320px - 40px);
+    min-height: 100vh;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    transition: transform .3s;
+  }
+
+  .li-menu {
+    display: block;
+
+    &__item + &__item {
+      margin-top: 20px;
+      margin-left: 0;
+    }
+
+    &__link {
+      width: 100%;
+      text-align: center;
+      font-size: 30px;
+    }
+  }
+
+  .b-header__menu.--active {
+    pointer-events: auto;
+    visibility: visible;
+    opacity: 1;
+
+    .n-nav {
+      transform: translateX(0);
+    }
+  }
+}
+

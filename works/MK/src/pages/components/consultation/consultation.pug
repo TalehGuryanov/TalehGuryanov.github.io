@@ -1,0 +1,10 @@
+include ../buttons/button
+
+form.f-consultation(action="#") Ваше имя
+  label.f-consultation__name(for="name")
+  input#name.f-consultation__field(type="text" name="name" placeholder="Ваше имя" required)
+  label.f-consultation__phone(for="phone") Телефон для связи
+  input#phone.f-consultation__field.tel-mask(type="tel" name="nphoneame" placeholder="+375 (XX) XXX-XX-XX" required)
+  .f-consultation__conditions Нажимая на кнопку «Получить консультацию», вы соглашаетесь с условиями
+  a.f-consultation__link(href="#") Политики конфиденциальности
+  +button('btn-consultation', 'Получить консультацию')

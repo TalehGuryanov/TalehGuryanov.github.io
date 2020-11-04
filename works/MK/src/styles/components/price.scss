@@ -1,0 +1,12 @@
+.b-price {
+
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    @include mainText;
+    max-width: 670px;
+    margin-bottom: 30px;
+  }
+}

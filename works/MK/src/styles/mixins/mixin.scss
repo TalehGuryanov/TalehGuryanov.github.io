@@ -1,0 +1,62 @@
+@mixin bem-button($width, $height, $lh) {
+  width: $width;
+  height: $height;
+  line-height: $lh;
+  background-color: $accent;
+  font-size: 13px;
+  font-weight: 700;
+  color: $light;
+  letter-spacing: 0.08em;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color .3s, box-shadow 1s ease;
+
+  &:hover {
+    box-shadow: inset $width 0 $black;
+  }
+
+  @include media-mobile {
+    &:hover {
+      box-shadow: none;
+    }
+  }
+}
+
+@mixin title($fs, $lh) {
+  font-size: $fs;
+  font-weight: 400;
+  color: $black-09;
+  line-height: $lh;
+  margin-bottom: 35px;
+}
+
+@mixin text ($fs, $fw, $lh, $color, $font: $mainFont) {
+  font-size: $fs;
+  line-height: $lh;
+  font-weight: $fw;
+  color: $color;
+  font-family: $font;
+}
+
+@mixin mainText {
+  font-family: $secondaryFont;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.67;
+  color: $black-08;
+}
+
+@mixin mask-img($url, $width, $height, $bg) {
+  mask-image: url($url);
+  width: $width;
+  height: $height;
+  background-color: $bg;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+}
+
+@mixin section {
+  padding: 80px 0 100px;
+}
+

@@ -1,0 +1,118 @@
+.li-services {
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  &__item {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    background-color: $light;
+    padding: 25px 30px 30px 20px;
+    border-left: 70px solid $accent;
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+
+    &:hover .li-services__link {
+      color: $black;
+    }
+  }
+
+  &__item:nth-child(n+3) {
+    margin-top: 30px;
+  }
+
+  &__item:nth-child(1), &__item:nth-child(9), &__item:nth-child(6) {
+    flex-basis: calc(41.5% - 15px);
+  }
+
+  &__item:nth-child(3), &__item:nth-child(7) {
+    flex-basis: calc(50% - 15px);
+  }
+
+  &__item:nth-child(5) {
+    flex-basis: calc(58.5% - 15px);
+  }
+
+  &__title {
+    height: 60px;
+    margin-bottom: 15px;
+  }
+
+  &__item:nth-child(2), &__item:nth-child(10) {
+    flex-basis: calc(58.5% - 15px);
+  }
+
+  &__item:nth-child(4), &__item:nth-child(8) {
+    flex-basis: calc(50% - 15px);
+  }
+
+  &__item:nth-child(1), &__item:nth-child(2), &__item:nth-child(9), &__item:nth-child(10) {
+    border-color: rgba(222, 195, 119, 0.4);
+  }
+
+  &__item:nth-child(3), &__item:nth-child(4), &__item:nth-child(7), &__item:nth-child(8) {
+    border-color: rgba(222, 195, 119, 0.75);
+  }
+
+  &__link {
+    @include text(12px, 600, 1.67, $black-05);
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-left: auto;
+    transition: color .3s;
+  }
+}
+
+.b-services {
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text {
+    @include mainText;
+    max-width: 770px;
+  }
+}
+
+@include media-tablet {
+
+  .li-services__item {
+    border-width: 40px;
+  }
+
+  .b-services {
+
+    &__bottom {
+      display: block;
+    }
+
+    &__text {
+      max-width: 100%;
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+  }
+}
+
+@include media-mobile {
+
+  .li-services {
+
+    .li-services__item {
+      flex-basis: 100%;
+      height: fit-content;
+    }
+
+    &__title {
+      font-size: 16px;
+      height: 75px;
+    }
+
+    &__item + &__item {
+      margin-top: 30px;
+    }
+  }
+}
