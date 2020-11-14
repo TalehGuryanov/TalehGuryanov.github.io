@@ -1,0 +1,50 @@
+.btn-more {
+  @include text(14px, 400, $gray-10);
+  position: relative;
+  width: 380px;
+  height: 65px;
+  margin: 0 auto;
+  line-height: 65px;
+  text-align: center;
+  border: 1px solid #CACACA;
+  border-radius: 10px;
+  transition: all 300ms ease;
+  overflow: hidden;
+
+  &:before{
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 100%;
+    background: #E52D2D;
+    top: 0;
+    left: auto;
+    right: 0;
+    z-index: -1;
+    transition: width .3s ease;
+  }
+
+  &:hover{
+    color: $gray-1;
+    &:before{
+      width: 100%;
+      left: 0;
+    }
+  }
+}
+
+@include media-tablet {
+  .btn-more:hover {
+    color: $gray-10;
+    &::before {
+      width: 0;
+      left: auto;
+    }
+  }
+}
+
+@include media-mobile {
+  .btn-more {
+    max-width: 305px;
+  }
+}

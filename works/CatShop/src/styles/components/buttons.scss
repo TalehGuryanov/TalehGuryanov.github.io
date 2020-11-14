@@ -1,0 +1,46 @@
+.btn {
+  @include bem-btn(380px, 65px);
+}
+
+.btn.btn-sold {
+  @include bem-btn(100%, 65px);
+  background-color: $gray-10;
+  pointer-events: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.btn-shop {
+  @include bem-btn(100%, 65px);
+  position: relative;
+  overflow: hidden;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  &::before {
+    content: '';
+    @include mask-img('../assets/icons/cart.svg', 25px, 25px, $gray-1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto 0;
+    transform: translateX(-100%);
+    transition: transform .3s;
+  }
+
+  &:hover::before {
+    transform: translateX(100px);
+  }
+}
+
+.btn.f-subscribe__button {
+  width: 250px;
+}
+
+@include media-mobile {
+  .btn.f-subscribe__button {
+    width: 100%;
+  }
+}
+

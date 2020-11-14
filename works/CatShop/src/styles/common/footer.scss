@@ -1,0 +1,125 @@
+.footer {
+  background-color: $gray-10;
+}
+
+.b-footer {
+
+  &__wrapper {
+    padding: 83px 80px 92px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__text {
+    max-width: 401px;
+  }
+
+  &__title {
+    margin-bottom: 26px;
+    color: $gray-1;
+  }
+
+  &__subtitle{
+    @include text(28px, 400, $gray-1);
+    line-height: 0.91;
+  }
+}
+
+.f-subscribe {
+
+  &__outer {
+    display: flex;
+    margin-bottom: 24px;
+  }
+
+  &__field {
+    @include text(14px, 400, $gray-10);
+    background-color: $gray-1;
+    width: 300px;
+    height: 65px;
+    padding: 0 33px;
+    line-height: 65px;
+    border-radius: 10px;
+    margin-right: 16px;
+    display: block;
+  }
+
+  &__button {
+    border-radius: 10px;
+    transition: transform .3s;
+    position: relative;
+
+    &::before {
+      @include mask-img('../assets/icons/check.svg', 25px, 20px, $gray-1);
+      opacity: 0;
+      content: '';
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 25px;
+      transition: opacity .3s;
+    }
+
+    &:hover::before {
+      opacity: 1;
+    }
+    &:active {
+      transform: scale(1.1);
+    }
+  }
+
+  &__checkbox {
+    @include text(14px, 400, $gray-1);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    &::before {
+      content: '';
+      width: 18px;
+      height: 18px;
+      background: $accent;
+      border-radius: 3px;
+      margin-right: 18px;
+    }
+
+    &.--checked::before {
+      background: url(../assets/icons/check.svg) no-repeat center $accent;
+    }
+  }
+}
+
+@include media-tablet {
+  .b-footer {
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__text {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@include media-mobile {
+
+  .b-footer__wrapper {
+    padding: 20px;
+  }
+  .f-subscribe {
+    width: 100%;
+    &__outer {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__field {
+      margin-bottom: 20px;
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+}
