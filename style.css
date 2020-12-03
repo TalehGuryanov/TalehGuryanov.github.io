@@ -23,6 +23,11 @@ body {
   color: #fff;
   padding: 10px 20px;
   text-transform: uppercase;
+  transition: background-color .3s;
+}
+
+.btn-menu:hover {
+  background-color: royalblue;
 }
 
 .btn-close {
