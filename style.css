@@ -124,6 +124,7 @@ body {
 }
 
 .b-content {
+  padding-top: 50px;
   display: flex;
   justify-content: space-between;
 }
