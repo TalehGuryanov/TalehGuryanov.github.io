@@ -14,12 +14,15 @@ body {
 }
 
 .btn-menu {
-  width: 30px;
-  height: 30px;
-  background: url(images/menu.svg) center no-repeat;
+  background-color: #000;
   position: fixed;
   top: 10px;
   left: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
 }
 
 .btn-close {
@@ -109,9 +112,10 @@ body {
   padding: 10px 20px;
   margin-bottom: 3px;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   background-color: #fff;
   color: #000;
+  text-transform: uppercase;
 }
 
 .b-content {
