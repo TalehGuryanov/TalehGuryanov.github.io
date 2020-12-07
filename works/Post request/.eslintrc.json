@@ -1,0 +1,29 @@
+{
+ "env": {
+    "jquery": true,
+    "browser": true
+ },
+ "overrides": [
+   {
+     "files": [ "src/**/*.js" ],
+     "extends": [
+       "standard",
+       "htmlacademy/es6"
+     ],
+     "rules": {
+       "indent": [
+         "error",
+         2
+       ],
+       "semi": [
+         "error",
+         "always"
+       ],
+       "quotes": [
+         "error",
+         "single"
+       ]
+     }
+   }
+ ]
+}
