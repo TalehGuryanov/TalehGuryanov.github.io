@@ -22,10 +22,8 @@
         <li class="li-menu__item"><a class="li-menu__link" href="#">АКЦIЇ ТА НОВИНИ</a></li>
         <li class="li-menu__item"><a class="li-menu__link" href="#">БЛОГ</a></li>
         <li class="li-menu__item"><a class="li-menu__link" href="#">КОНТАКТИ</a></li>
-        <li class="li-menu__item"><a class="li-menu__link" href="#">ЗАВОВИТИ ДЗВIНОК</a></li>
-        <li class="li-menu__item"><a class="li-menu__link" href="#">ВХIД</a>
-         <div class="li-menu__exit"></div>
-        </li>
+        <li class="li-menu__item"><a class="li-menu__link --call" href="#">ЗАМОВИТИ ДЗВIНОК</a></li>
+        <li class="li-menu__item --singin"><a class="li-menu__link" href="#">ВХIД</a></li>
        </ul>
       </nav>
      </div>
@@ -44,8 +42,8 @@
        <div class="b-header__contacts">
         <div class="b-header__phone">
          <div class="b-header__phone-icon"></div><a class="b-header__phone-link" href="tel:0442758655">044 275 86 55</a>
-         <div class="b-header__phone-star"><a class="b-header__phone-link --extra" href="tel:0962758655">096 275 86 55</a></div>
-         <div class="b-header__phone-mts"><a class="b-header__phone-link --extra" href="tel:0962758655">096 275 86 55</a></div>
+         <div class="b-header__phone-star"><a class="b-header__phone-link --extra" href="tel:0962758655"><strong>096</strong> 275 86 55</a></div>
+         <div class="b-header__phone-mts"><a class="b-header__phone-link --extra" href="tel:0962758655"><strong>096</strong> 275 86 55</a></div>
         </div><a class="b-header__mail" href="mailto: info@savvats.com">info@savvats.com</a>
        </div>
        <div class="b-header__time">
@@ -61,7 +59,7 @@
           <div class="b-header__card-product">2 товари</div>
           <div class="b-header__card-price">5800 грн</div>
          </div>
-        </div><a class="b-header__order-link" href="#">ОФОРМИТИ ЗАМОВЛЕННЯ</a>
+        </div><a class="btn b-header__order-link" href="#">ОФОРМИТИ ЗАМОВЛЕННЯ</a>
        </div>
        <div class="b-header__lang"><a class="b-header__lang-link" href="#">UA</a>
         <div class="b-header__lang-icon"></div>
@@ -77,71 +75,210 @@
     <div class="b-main__wrapper">
      <div class="b-main__top">
       <div class="b-main__title">Каталог товарIв</div>
-      <ul class="li-catalog">
-       <li class="li-catalog__item"><a class="li-catalog__link" href="#">ВІКНА ДВЕРІ</a></li>
-       <li class="li-catalog__item"><a class="li-catalog__link" href="#">ДАХ КРІВЛЯ</a></li>
-       <li class="li-catalog__item"><a class="li-catalog__link" href="#">ФАСАД</a></li>
-       <li class="li-catalog__item"><a class="li-catalog__link" href="#">АВТОРЕМОНТ</a></li>
-       <li class="li-catalog__item"><a class="li-catalog__link" href="#">МЕБЛІ</a></li>
-       <li class="li-catalog__item"><a class="li-catalog__link" href="#">ІНЖЕНЕРНІ КОМУНІКАЦІЇ</a></li>
-       <li class="li-catalog__item"><a class="li-catalog__link" href="#">ВОДНИЙ ТРАНСПОРТ</a></li>
-       <li class="li-catalog__item"><a class="li-catalog__link" href="#">СОНЯЧНІ БАТАРЕЇ</a></li>
-      </ul>
+      <div class="b-main__menu">
+       <ul class="li-catalog">
+        <li class="li-catalog__item"><a class="li-catalog__link" href="#">Вікна, двері</a>
+         <ul class="li-main-menu">
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ГЕРМЕТИКИ</a><a class="li-main-menu__link" href="#">Герметики ленточные</a><a class="li-main-menu__link" href="#">Герметики специальные</a><a class="li-main-menu__link" href="#">Герметики полиуретановые</a><a class="li-main-menu__link" href="#">Герметики на основе SMX-polymer</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ГВОЗДИ</a><a class="li-main-menu__link" href="#">Гвозди строительные</a><a class="li-main-menu__link" href="#">Гвозди кровельные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#"> КРЕПЁЖНЫЕ ПЛАСТИНЫ, МОНТАЖНЫЕ ЛЕНТЫ</a><a class="li-main-menu__link" href="#">Прочие соединители</a><a class="li-main-menu__link" href="#">Пластины усиленные</a><a class="li-main-menu__link" href="#">Пластины прямые</a><a class="li-main-menu__link" href="#">Пластины поддерживающие</a><a class="li-main-menu__link" href="#">Наконечники балки, опоры</a><a class="li-main-menu__link" href="#">Пластины угловые</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ШАЙБЫ</a><a class="li-main-menu__link" href="#">Шайбы специальные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ДЮБЕЛИ</a><a class="li-main-menu__link" href="#">Дюбели для теплоизоляции</a><a class="li-main-menu__link" href="#">Дюбели фасадные, рамные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">КЛЕИ</a><a class="li-main-menu__link" href="#">Клеи монтажные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ПЕНЫ</a><a class="li-main-menu__link" href="#">Пены для ручного применения</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ТЕХНИЧЕСКИЕ АЭРОЗОЛИ</a><a class="li-main-menu__link" href="#">Аэрозоли сервисные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ХИМИЧЕСКИЕ АНКЕРЫ</a><a class="li-main-menu__link" href="#">Химические анкеры METALVIS</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#"> САМОРЕЗЫ</a><a class="li-main-menu__link" href="#">Винты самосверлящие по металлу (кровля / фасады)</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#"> ПРОЧЕЕ</a><a class="li-main-menu__link" href="#">Рулетки</a></li>
+         </ul>
+        </li>
+        <li class="li-catalog__item"><a class="li-catalog__link" href="#">Дах крівля</a>
+         <ul class="li-main-menu">
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ГЕРМЕТИКИ</a><a class="li-main-menu__link" href="#">Герметики ленточные</a><a class="li-main-menu__link" href="#">Герметики специальные</a><a class="li-main-menu__link" href="#">Герметики полиуретановые</a><a class="li-main-menu__link" href="#">Герметики на основе SMX-polymer</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ГВОЗДИ</a><a class="li-main-menu__link" href="#">Гвозди строительные</a><a class="li-main-menu__link" href="#">Гвозди кровельные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#"> КРЕПЁЖНЫЕ ПЛАСТИНЫ, МОНТАЖНЫЕ ЛЕНТЫ</a><a class="li-main-menu__link" href="#">Прочие соединители</a><a class="li-main-menu__link" href="#">Пластины усиленные</a><a class="li-main-menu__link" href="#">Пластины прямые</a><a class="li-main-menu__link" href="#">Пластины поддерживающие</a><a class="li-main-menu__link" href="#">Наконечники балки, опоры</a><a class="li-main-menu__link" href="#">Пластины угловые</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ШАЙБЫ</a><a class="li-main-menu__link" href="#">Шайбы специальные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ДЮБЕЛИ</a><a class="li-main-menu__link" href="#">Дюбели для теплоизоляции</a><a class="li-main-menu__link" href="#">Дюбели фасадные, рамные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">КЛЕИ</a><a class="li-main-menu__link" href="#">Клеи монтажные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ПЕНЫ</a><a class="li-main-menu__link" href="#">Пены для ручного применения</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ТЕХНИЧЕСКИЕ АЭРОЗОЛИ</a><a class="li-main-menu__link" href="#">Аэрозоли сервисные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ХИМИЧЕСКИЕ АНКЕРЫ</a><a class="li-main-menu__link" href="#">Химические анкеры METALVIS</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#"> САМОРЕЗЫ</a><a class="li-main-menu__link" href="#">Винты самосверлящие по металлу (кровля / фасады)</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#"> ПРОЧЕЕ</a><a class="li-main-menu__link" href="#">Рулетки</a></li>
+         </ul>
+        </li>
+        <li class="li-catalog__item"><a class="li-catalog__link" href="#">Фасад</a>
+         <ul class="li-main-menu">
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ГЕРМЕТИКИ</a><a class="li-main-menu__link" href="#">Герметики ленточные</a><a class="li-main-menu__link" href="#">Герметики специальные</a><a class="li-main-menu__link" href="#">Герметики полиуретановые</a><a class="li-main-menu__link" href="#">Герметики на основе SMX-polymer</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ГВОЗДИ</a><a class="li-main-menu__link" href="#">Гвозди строительные</a><a class="li-main-menu__link" href="#">Гвозди кровельные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#"> КРЕПЁЖНЫЕ ПЛАСТИНЫ, МОНТАЖНЫЕ ЛЕНТЫ</a><a class="li-main-menu__link" href="#">Прочие соединители</a><a class="li-main-menu__link" href="#">Пластины усиленные</a><a class="li-main-menu__link" href="#">Пластины прямые</a><a class="li-main-menu__link" href="#">Пластины поддерживающие</a><a class="li-main-menu__link" href="#">Наконечники балки, опоры</a><a class="li-main-menu__link" href="#">Пластины угловые</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ШАЙБЫ</a><a class="li-main-menu__link" href="#">Шайбы специальные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ДЮБЕЛИ</a><a class="li-main-menu__link" href="#">Дюбели для теплоизоляции</a><a class="li-main-menu__link" href="#">Дюбели фасадные, рамные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">КЛЕИ</a><a class="li-main-menu__link" href="#">Клеи монтажные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ПЕНЫ</a><a class="li-main-menu__link" href="#">Пены для ручного применения</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ТЕХНИЧЕСКИЕ АЭРОЗОЛИ</a><a class="li-main-menu__link" href="#">Аэрозоли сервисные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ХИМИЧЕСКИЕ АНКЕРЫ</a><a class="li-main-menu__link" href="#">Химические анкеры METALVIS</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#"> САМОРЕЗЫ</a><a class="li-main-menu__link" href="#">Винты самосверлящие по металлу (кровля / фасады)</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#"> ПРОЧЕЕ</a><a class="li-main-menu__link" href="#">Рулетки</a></li>
+         </ul>
+        </li>
+        <li class="li-catalog__item"><a class="li-catalog__link" href="#">Авторемонт</a>
+         <ul class="li-main-menu">
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ГЕРМЕТИКИ</a><a class="li-main-menu__link" href="#">Герметики ленточные</a><a class="li-main-menu__link" href="#">Герметики специальные</a><a class="li-main-menu__link" href="#">Герметики полиуретановые</a><a class="li-main-menu__link" href="#">Герметики на основе SMX-polymer</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ГВОЗДИ</a><a class="li-main-menu__link" href="#">Гвозди строительные</a><a class="li-main-menu__link" href="#">Гвозди кровельные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#"> КРЕПЁЖНЫЕ ПЛАСТИНЫ, МОНТАЖНЫЕ ЛЕНТЫ</a><a class="li-main-menu__link" href="#">Прочие соединители</a><a class="li-main-menu__link" href="#">Пластины усиленные</a><a class="li-main-menu__link" href="#">Пластины прямые</a><a class="li-main-menu__link" href="#">Пластины поддерживающие</a><a class="li-main-menu__link" href="#">Наконечники балки, опоры</a><a class="li-main-menu__link" href="#">Пластины угловые</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ШАЙБЫ</a><a class="li-main-menu__link" href="#">Шайбы специальные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ДЮБЕЛИ</a><a class="li-main-menu__link" href="#">Дюбели для теплоизоляции</a><a class="li-main-menu__link" href="#">Дюбели фасадные, рамные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">КЛЕИ</a><a class="li-main-menu__link" href="#">Клеи монтажные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ПЕНЫ</a><a class="li-main-menu__link" href="#">Пены для ручного применения</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ТЕХНИЧЕСКИЕ АЭРОЗОЛИ</a><a class="li-main-menu__link" href="#">Аэрозоли сервисные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ХИМИЧЕСКИЕ АНКЕРЫ</a><a class="li-main-menu__link" href="#">Химические анкеры METALVIS</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#"> САМОРЕЗЫ</a><a class="li-main-menu__link" href="#">Винты самосверлящие по металлу (кровля / фасады)</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#"> ПРОЧЕЕ</a><a class="li-main-menu__link" href="#">Рулетки</a></li>
+         </ul>
+        </li>
+        <li class="li-catalog__item"><a class="li-catalog__link" href="#">Меблі</a>
+         <ul class="li-main-menu">
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ГЕРМЕТИКИ</a><a class="li-main-menu__link" href="#">Герметики ленточные</a><a class="li-main-menu__link" href="#">Герметики специальные</a><a class="li-main-menu__link" href="#">Герметики полиуретановые</a><a class="li-main-menu__link" href="#">Герметики на основе SMX-polymer</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ГВОЗДИ</a><a class="li-main-menu__link" href="#">Гвозди строительные</a><a class="li-main-menu__link" href="#">Гвозди кровельные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#"> КРЕПЁЖНЫЕ ПЛАСТИНЫ, МОНТАЖНЫЕ ЛЕНТЫ</a><a class="li-main-menu__link" href="#">Прочие соединители</a><a class="li-main-menu__link" href="#">Пластины усиленные</a><a class="li-main-menu__link" href="#">Пластины прямые</a><a class="li-main-menu__link" href="#">Пластины поддерживающие</a><a class="li-main-menu__link" href="#">Наконечники балки, опоры</a><a class="li-main-menu__link" href="#">Пластины угловые</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ШАЙБЫ</a><a class="li-main-menu__link" href="#">Шайбы специальные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ДЮБЕЛИ</a><a class="li-main-menu__link" href="#">Дюбели для теплоизоляции</a><a class="li-main-menu__link" href="#">Дюбели фасадные, рамные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">КЛЕИ</a><a class="li-main-menu__link" href="#">Клеи монтажные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ПЕНЫ</a><a class="li-main-menu__link" href="#">Пены для ручного применения</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ТЕХНИЧЕСКИЕ АЭРОЗОЛИ</a><a class="li-main-menu__link" href="#">Аэрозоли сервисные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ХИМИЧЕСКИЕ АНКЕРЫ</a><a class="li-main-menu__link" href="#">Химические анкеры METALVIS</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#"> САМОРЕЗЫ</a><a class="li-main-menu__link" href="#">Винты самосверлящие по металлу (кровля / фасады)</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#"> ПРОЧЕЕ</a><a class="li-main-menu__link" href="#">Рулетки</a></li>
+         </ul>
+        </li>
+        <li class="li-catalog__item"><a class="li-catalog__link" href="#">Інженерні Комунікаці</a>
+         <ul class="li-main-menu">
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ГЕРМЕТИКИ</a><a class="li-main-menu__link" href="#">Герметики ленточные</a><a class="li-main-menu__link" href="#">Герметики специальные</a><a class="li-main-menu__link" href="#">Герметики полиуретановые</a><a class="li-main-menu__link" href="#">Герметики на основе SMX-polymer</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ГВОЗДИ</a><a class="li-main-menu__link" href="#">Гвозди строительные</a><a class="li-main-menu__link" href="#">Гвозди кровельные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#"> КРЕПЁЖНЫЕ ПЛАСТИНЫ, МОНТАЖНЫЕ ЛЕНТЫ</a><a class="li-main-menu__link" href="#">Прочие соединители</a><a class="li-main-menu__link" href="#">Пластины усиленные</a><a class="li-main-menu__link" href="#">Пластины прямые</a><a class="li-main-menu__link" href="#">Пластины поддерживающие</a><a class="li-main-menu__link" href="#">Наконечники балки, опоры</a><a class="li-main-menu__link" href="#">Пластины угловые</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ШАЙБЫ</a><a class="li-main-menu__link" href="#">Шайбы специальные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ДЮБЕЛИ</a><a class="li-main-menu__link" href="#">Дюбели для теплоизоляции</a><a class="li-main-menu__link" href="#">Дюбели фасадные, рамные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">КЛЕИ</a><a class="li-main-menu__link" href="#">Клеи монтажные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ПЕНЫ</a><a class="li-main-menu__link" href="#">Пены для ручного применения</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ТЕХНИЧЕСКИЕ АЭРОЗОЛИ</a><a class="li-main-menu__link" href="#">Аэрозоли сервисные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ХИМИЧЕСКИЕ АНКЕРЫ</a><a class="li-main-menu__link" href="#">Химические анкеры METALVIS</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#"> САМОРЕЗЫ</a><a class="li-main-menu__link" href="#">Винты самосверлящие по металлу (кровля / фасады)</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#"> ПРОЧЕЕ</a><a class="li-main-menu__link" href="#">Рулетки</a></li>
+         </ul>
+        </li>
+        <li class="li-catalog__item"><a class="li-catalog__link" href="#">Водний транспорт</a>
+         <ul class="li-main-menu">
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ГЕРМЕТИКИ</a><a class="li-main-menu__link" href="#">Герметики ленточные</a><a class="li-main-menu__link" href="#">Герметики специальные</a><a class="li-main-menu__link" href="#">Герметики полиуретановые</a><a class="li-main-menu__link" href="#">Герметики на основе SMX-polymer</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ГВОЗДИ</a><a class="li-main-menu__link" href="#">Гвозди строительные</a><a class="li-main-menu__link" href="#">Гвозди кровельные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#"> КРЕПЁЖНЫЕ ПЛАСТИНЫ, МОНТАЖНЫЕ ЛЕНТЫ</a><a class="li-main-menu__link" href="#">Прочие соединители</a><a class="li-main-menu__link" href="#">Пластины усиленные</a><a class="li-main-menu__link" href="#">Пластины прямые</a><a class="li-main-menu__link" href="#">Пластины поддерживающие</a><a class="li-main-menu__link" href="#">Наконечники балки, опоры</a><a class="li-main-menu__link" href="#">Пластины угловые</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ШАЙБЫ</a><a class="li-main-menu__link" href="#">Шайбы специальные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ДЮБЕЛИ</a><a class="li-main-menu__link" href="#">Дюбели для теплоизоляции</a><a class="li-main-menu__link" href="#">Дюбели фасадные, рамные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">КЛЕИ</a><a class="li-main-menu__link" href="#">Клеи монтажные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ПЕНЫ</a><a class="li-main-menu__link" href="#">Пены для ручного применения</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ТЕХНИЧЕСКИЕ АЭРОЗОЛИ</a><a class="li-main-menu__link" href="#">Аэрозоли сервисные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ХИМИЧЕСКИЕ АНКЕРЫ</a><a class="li-main-menu__link" href="#">Химические анкеры METALVIS</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#"> САМОРЕЗЫ</a><a class="li-main-menu__link" href="#">Винты самосверлящие по металлу (кровля / фасады)</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#"> ПРОЧЕЕ</a><a class="li-main-menu__link" href="#">Рулетки</a></li>
+         </ul>
+        </li>
+        <li class="li-catalog__item"><a class="li-catalog__link" href="#">Сонячні батареі</a>
+         <ul class="li-main-menu">
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ГЕРМЕТИКИ</a><a class="li-main-menu__link" href="#">Герметики ленточные</a><a class="li-main-menu__link" href="#">Герметики специальные</a><a class="li-main-menu__link" href="#">Герметики полиуретановые</a><a class="li-main-menu__link" href="#">Герметики на основе SMX-polymer</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ГВОЗДИ</a><a class="li-main-menu__link" href="#">Гвозди строительные</a><a class="li-main-menu__link" href="#">Гвозди кровельные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#"> КРЕПЁЖНЫЕ ПЛАСТИНЫ, МОНТАЖНЫЕ ЛЕНТЫ</a><a class="li-main-menu__link" href="#">Прочие соединители</a><a class="li-main-menu__link" href="#">Пластины усиленные</a><a class="li-main-menu__link" href="#">Пластины прямые</a><a class="li-main-menu__link" href="#">Пластины поддерживающие</a><a class="li-main-menu__link" href="#">Наконечники балки, опоры</a><a class="li-main-menu__link" href="#">Пластины угловые</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ШАЙБЫ</a><a class="li-main-menu__link" href="#">Шайбы специальные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ДЮБЕЛИ</a><a class="li-main-menu__link" href="#">Дюбели для теплоизоляции</a><a class="li-main-menu__link" href="#">Дюбели фасадные, рамные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">КЛЕИ</a><a class="li-main-menu__link" href="#">Клеи монтажные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ПЕНЫ</a><a class="li-main-menu__link" href="#">Пены для ручного применения</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ТЕХНИЧЕСКИЕ АЭРОЗОЛИ</a><a class="li-main-menu__link" href="#">Аэрозоли сервисные</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#">ХИМИЧЕСКИЕ АНКЕРЫ</a><a class="li-main-menu__link" href="#">Химические анкеры METALVIS</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#"> САМОРЕЗЫ</a><a class="li-main-menu__link" href="#">Винты самосверлящие по металлу (кровля / фасады)</a></li>
+          <li class="li-main-menu__item"><a class="li-main-menu__catalog" href="#"> ПРОЧЕЕ</a><a class="li-main-menu__link" href="#">Рулетки</a></li>
+         </ul>
+        </li>
+       </ul>
+      </div>
      </div>
      <div class="b-main__body">
       <ul class="li-collection">
-       <li class="li-collection__item"><a class="li-collection__link" href="#">Болти, гвинти</a></li>
-       <li class="li-collection__item"><a class="li-collection__link" href="#">Шурупи, саморiзи</a></li>
-       <li class="li-collection__item"><a class="li-collection__link" href="#">Гайки, шайби, Кольца</a></li>
-       <li class="li-collection__item"><a class="li-collection__link" href="#">Дюбелi, анкери</a></li>
-       <li class="li-collection__item"><a class="li-collection__link" href="#">Заклепки, штифти</a></li>
-       <li class="li-collection__item"><a class="li-collection__link" href="#">iнструменти</a></li>
-       <li class="li-collection__item"><a class="li-collection__link" href="#">Пiни, клей</a></li>
-       <li class="li-collection__item"><a class="li-collection__link" href="#">Такелаж</a></li>
-       <li class="li-collection__item"><a class="li-collection__link" href="#">Хомути, пластини</a></li>
+       <li class="li-collection__item"><a class="li-collection__link" href="#">
+         <div class="li-collection__title">Болти, Гвинти, стрижні</div>
+         <div class="li-collection__img"><img src="./assets/img/1.png" alt="#"></div></a></li>
+       <li class="li-collection__item"><a class="li-collection__link" href="#">
+         <div class="li-collection__title">Шурупи, саморізи</div>
+         <div class="li-collection__img"><img src="./assets/img/2.png" alt="#"></div></a></li>
+       <li class="li-collection__item"><a class="li-collection__link" href="#">
+         <div class="li-collection__title">Гайки, шайби, Кольца</div>
+         <div class="li-collection__img"><img src="./assets/img/3.png" alt="#"></div></a></li>
+       <li class="li-collection__item"><a class="li-collection__link" href="#">
+         <div class="li-collection__title">Дюбелі, анкери, хіманкери</div>
+         <div class="li-collection__img"><img src="./assets/img/4.png" alt="#"></div></a></li>
+       <li class="li-collection__item"><a class="li-collection__link" href="#">
+         <div class="li-collection__title">Заклепки, штифти</div>
+         <div class="li-collection__img"><img src="./assets/img/5.png" alt="#"></div></a></li>
+       <li class="li-collection__item"><a class="li-collection__link" href="#">
+         <div class="li-collection__title">iнструменти, росхідні матеріали</div>
+         <div class="li-collection__img"><img src="./assets/img/6.png" alt="#"></div></a></li>
+       <li class="li-collection__item"><a class="li-collection__link" href="#">
+         <div class="li-collection__title">Піни, клей, герметики</div>
+         <div class="li-collection__img"><img src="./assets/img/7.png" alt="#"></div></a></li>
+       <li class="li-collection__item"><a class="li-collection__link" href="#">
+         <div class="li-collection__title">Такелаж</div>
+         <div class="li-collection__img"><img src="./assets/img/8.png" alt="#"></div></a></li>
+       <li class="li-collection__item"><a class="li-collection__link" href="#">
+         <div class="li-collection__title">Хомути, пластини, цвяхи, з’еднувачі</div>
+         <div class="li-collection__img"><img src="./assets/img/9.png" alt="#"></div></a></li>
       </ul>
-      <div class="b-slider">
-       <div class="b-slider__content" style="background-image: url(./assets/img/slider1.png)">
-        <div class="b-slider__text">
-         <div class="b-slider__title">БIльше 20000 найменувать метизIв, крIплення, Iнструменту.</div>
-         <div class="b-slider__subtitle">Власний шоурум в Києві. Онлайн замовлення та оплата.</div><a class="b-slider__link" href="#">Дізнатися більше</a><span>Швидка та проста реєстрація за 1 хвилину</span>
+      <div class="b-main__outer">
+       <div class="b-slider">
+        <div class="b-slider__content" style="background-image: url(./assets/img/slider1.png)">
+         <div class="b-slider__text">
+          <div class="b-slider__title">БIльше 20000 найменувать метизIв, крIплення, Iнструменту.</div>
+          <div class="b-slider__subtitle">Власний шоурум в Києві. Онлайн замовлення та оплата.</div><a class="btn b-slider__link" href="#">Дізнатися більше</a><span>Швидка та проста реєстрація за 1 хвилину</span>
+         </div>
+         <button class="btn-slider__prev" type="button"></button>
+         <button class="btn-slider__next" type="button"></button>
         </div>
-        <button class="btn-slider__prev" type="button"></button>
-        <button class="btn-slider__next" type="button"></button>
-       </div>
-       <div class="b-slider__content" style="background-image: url(./assets/img/slider2.png)">
-        <div class="b-slider__text">
-         <div class="b-slider__title">Швидке оформлення замовлення</div>
-         <div class="b-slider__subtitle">Доставка по всій Україні. Завжди в наявності.</div><a class="b-slider__link" href="#">Дізнатися більше</a><span>Швидка та проста реєстрація за 1 хвилину</span>
+        <div class="b-slider__content" style="background-image: url(./assets/img/slider2.png)">
+         <div class="b-slider__text --blue">
+          <div class="b-slider__title">Швидке оформлення замовлення</div>
+          <div class="b-slider__subtitle">Доставка по всій Україні. Завжди в наявності.</div><a class="btn b-slider__link" href="#">Дізнатися більше</a><span>Швидка та проста реєстрація за 1 хвилину</span>
+         </div>
+         <button class="btn-slider__prev" type="button"></button>
+         <button class="btn-slider__next" type="button"></button>
         </div>
-        <button class="btn-slider__prev" type="button"></button>
-        <button class="btn-slider__next" type="button"></button>
-       </div>
-       <div class="b-slider__content" style="background-image: url(./assets/img/slider3.png)">
-        <div class="b-slider__text">
-         <div class="b-slider__title">Copy Гуртом I в роздрIб</div>
-         <div class="b-slider__subtitle">Кращі ціни на ринку кріплення України.</div><a class="b-slider__link" href="#">Дізнатися більше</a><span>Швидка та проста реєстрація за 1 хвилину</span>
+        <div class="b-slider__content" style="background-image: url(./assets/img/slider3.png)">
+         <div class="b-slider__text">
+          <div class="b-slider__title">Гуртом I в роздрIб</div>
+          <div class="b-slider__subtitle">Кращі ціни на ринку кріплення України.</div><a class="btn b-slider__link" href="#">Дізнатися більше</a><span>Швидка та проста реєстрація за 1 хвилину</span>
+         </div>
+         <button class="btn-slider__prev" type="button"></button>
+         <button class="btn-slider__next" type="button"></button>
         </div>
-        <button class="btn-slider__prev" type="button"></button>
-        <button class="btn-slider__next" type="button"></button>
        </div>
       </div>
      </div>
      <div class="b-main__footer">
       <ul class="li-about">
-       <li class="li-about__item"><img src="./assets/icons/bolt.svg" alt="">
+       <li class="li-about__item">
+        <div class="li-about__img"><img src="./assets/icons/bolt.svg" alt=""></div>
         <div class="li-about__text">20000 НАЙМЕНУВАНЬ МЕТИЗІВ ТА КРІПЛЕННЯ</div>
        </li>
-       <li class="li-about__item"><img src="./assets/icons/ship.svg" alt="">
+       <li class="li-about__item">
+        <div class="li-about__img"><img src="./assets/icons/ship.svg" alt=""></div>
         <div class="li-about__text">ДОСТАВКА ПО ВСІЙ УКРАЇНІ</div>
        </li>
-       <li class="li-about__item"><img src="./assets/icons/sertify.svg" alt="">
+       <li class="li-about__item">
+        <div class="li-about__img"><img src="./assets/icons/certificate.svg" alt=""></div>
         <div class="li-about__text">СЕРТИФІКОВАНА ЯКІСНА ПРОДУКЦІЯ</div>
        </li>
-       <li class="li-about__item"><img src="./assets/icons/sale.svg" alt="">
+       <li class="li-about__item">
+        <div class="li-about__img"><img src="./assets/icons/sale.svg" alt=""></div>
         <div class="li-about__text">ГУРТОМ ТА В РОЗДРІБ</div>
        </li>
-       <li class="li-about__item"><img src="./assets/icons/quality.svg" alt="">
+       <li class="li-about__item">
+        <div class="li-about__img"><img src="./assets/icons/quality.svg" alt=""></div>
         <div class="li-about__text">15 РОКІВ НА РИНКУ</div>
        </li>
       </ul>
@@ -154,27 +291,27 @@
     <div class="b-catalog__wrapper">
      <div class="b-catalog__action">
       <h1 class="h2 b-catalog__title">КАТАЛОГ ТОВАРIВ</h1>
-      <button class="btn-call" type="button">Замовити дзвінок</button><a class="b-catalog__link" href="#">Перейти в каталог</a>
+        <button class="btn-icon btn-call" type="button">Замовити дзвінок</button><a class="btn-icon btn-catalog-link" href="#">Перейти в каталог</a>
      </div>
      <ul class="li-listing">
       <li class="li-listing__item"><a class="li-listing__link --dark" href="#">
-          <h3 class="h3 li-listing__title">болти гвинт стрижнI</h3><img src="./assets/img/bolt.png" alt="#"></a></li>
+          <h3 class="h3 li-listing__title">Болти Гвинти стрижні</h3><img src="./assets/img/bolt.png" alt="#"></a></li>
       <li class="li-listing__item"><a class="li-listing__link --light --large" href="#">
-          <h3 class="h3 li-listing__title">гайки шайби кIльця</h3><img src="./assets/img/nut.png" alt="#"></a></li>
+          <h3 class="h3 li-listing__title">Гайки Шайби Кільця</h3><img src="./assets/img/nut.png" alt="#"></a></li>
       <li class="li-listing__item"><a class="li-listing__link" href="#">
-          <h3 class="h3 li-listing__title">дюбел Iанкери ХIманкери</h3><img src="./assets/img/dowels.png" alt="#"></a></li>
+          <h3 class="h3 li-listing__title">Дюбелі Анкери Хіманкери</h3><img src="./assets/img/dowels.png" alt="#"></a></li>
       <li class="li-listing__item"><a class="li-listing__link --large" href="#">
-          <h3 class="h3 li-listing__title">Iнструменти ВитратнI матерIали</h3><img src="./assets/img/tools.png" alt="#"></a></li>
+          <h3 class="h3 li-listing__title">Iнструменти Витратні матеріали</h3><img src="./assets/img/tools.png" alt="#"></a></li>
       <li class="li-listing__item"><a class="li-listing__link --dark" href="#">
-          <h3 class="h3 li-listing__title">пIни герметики кле</h3><img src="./assets/img/bolt.png" alt="#"></a></li>
+          <h3 class="h3 li-listing__title">Піни Герметики Клеї</h3><img src="./assets/img/glue.png" alt="#"></a></li>
       <li class="li-listing__item"><a class="li-listing__link --light" href="#">
-          <h3 class="h3 li-listing__title">Заклепки штифти шплIнти</h3><img src="./assets/img/rivets.png" alt="#"></a></li>
+          <h3 class="h3 li-listing__title">Заклепки Штифти Шплінти</h3><img src="./assets/img/rivets.png" alt="#"></a></li>
       <li class="li-listing__item"><a class="li-listing__link --dark" href="#">
-          <h3 class="h3 li-listing__title">тАКЕЛАЖ</h3><img src="./assets/img/tackle.png" alt="#"></a></li>
+          <h3 class="h3 li-listing__title">Такелаж</h3><img src="./assets/img/tackle.png" alt="#"></a></li>
       <li class="li-listing__item"><a class="li-listing__link --light" href="#">
-          <h3 class="h3 li-listing__title">шурупи Саморези</h3><img src="./assets/img/screws.png" alt="#"></a></li>
+          <h3 class="h3 li-listing__title">Шурупи Саморези</h3><img src="./assets/img/screws.png" alt="#"></a></li>
       <li class="li-listing__item"><a class="li-listing__link --large" href="#">
-          <h3 class="h3 li-listing__title">хОМУТИ ПЛАСТIНИ ГВОЗДИ СОЕДИНЕНИЯ</h3><img src="./assets/img/clamps1.png" alt="#"></a></li>
+          <h3 class="h3 li-listing__title">Хомути Пластіни Гвозди Соединения</h3><img src="./assets/img/clamps1.png" alt="#"></a></li>
      </ul>
     </div>
    </div>
@@ -185,14 +322,15 @@
    <div class="container">
     <div class="b-price__wrapper">
      <div class="b-price__info">
-        <h2 class="h2 b-price__title">ПрАЙс лист</h2>
+        <h2 class="h2 b-price__title">Прайс лист</h2>
       <div class="b-price__text">
        <p>Тут ви пожет ознайомитися з нашим прайс-листом</p>
        <p>Завантажте актуальний прайс лист на метизи та кріплення від компанія виробника і постачальника САВВАТС МЕТИЗИ.</p>
        <p>Необхідна допомога в підборі та замовленні метизів та кріплення?</p>
        <p>Заповніть форму , наш менеджер допоможе підібрати кріплення та оформити замовлення.</p>
       </div>
-      <div class="b-price__action"><a class="b-price__load" href="#" download>ЗАВАНТАЖИТИ ПРАЙС</a><a class="b-price__view" href="#">ПЕРЕГЛЯНУТИ ПРАЙС</a></div>
+      <div class="b-price__action"><a class="btn b-price__load" href="#">ЗАВАНТАЖИТИ ПРАЙС</a><a class="btn btn-primary b-price__view" href="#">ПЕРЕГЛЯНУТИ ПРАЙС</a>
+      </div>
      </div>
      <div class="b-price__consultation">
       <div class="b-price__art"><img src="./assets/img/art4.png" alt="#"></div>
@@ -201,7 +339,7 @@
       <form class="f-consultation">
        <input class="f-consultation__field" type="text" name="name" placeholder="ІМ’Я" required>
        <input class="f-consultation__field" type="tel" name="phone" placeholder="ТЕЛЕФОН" required>
-       <button class="f-consultation__submit" type="submit">НАДІСЛАТИ</button>
+         <button class="btn btn-primary f-consultation__submit">НАДІСЛАТИ</button>
       </form>
      </div>
     </div>
@@ -211,44 +349,44 @@
    <div class="container">
     <div class="b-category__wrapper">
      <div class="b-category__text">
-        <h2 class="h2 b-category__title">ПопулярнI КАТЕГОРIЇ</h2>
+        <h2 class="h2 b-category__title">Популярні категорії</h2>
       <div class="b-category__subtitle">Пройшовши реєстрацію за 1 хвилину Ви зможете самостійно оформити замовлення, провести оплату і замовити доставку замовлення. Виберете серед популярних категорій метизів</div>
      </div>
      <ul class="li-category">
       <li class="li-category__item"><a class="li-category__link" href="#"><img src="./assets/img/tool1.png" alt="#">
-        <h4 class="h4 li-category__title">тАКЕЛАЖ</h4></a></li>
+        <h4 class="h4 li-category__title">Такелаж</h4></a></li>
       <li class="li-category__item"><a class="li-category__link" href="#"><img src="./assets/img/tool2.png" alt="#">
-        <h4 class="h4 li-category__title">шурупи</h4></a></li>
+        <h4 class="h4 li-category__title">Шурупи</h4></a></li>
       <li class="li-category__item"><a class="li-category__link" href="#"><img src="./assets/img/tool3.png" alt="#">
-        <h4 class="h4 li-category__title">саморIзи</h4></a></li>
+        <h4 class="h4 li-category__title">Саморізи</h4></a></li>
       <li class="li-category__item"><a class="li-category__link" href="#"><img src="./assets/img/tool4.png" alt="#">
-        <h4 class="h4 li-category__title">Дюбелная технIка</h4></a></li>
+        <h4 class="h4 li-category__title">Дюбельная техника</h4></a></li>
       <li class="li-category__item"><a class="li-category__link" href="#"><img src="./assets/img/tool5.png" alt="#">
-        <h4 class="h4 li-category__title">анкерная технIка</h4></a></li>
+        <h4 class="h4 li-category__title">Анкерная техника</h4></a></li>
       <li class="li-category__item"><a class="li-category__link" href="#"><img src="./assets/img/tool6.png" alt="#">
-        <h4 class="h4 li-category__title">ж/д крIплення</h4></a></li>
+        <h4 class="h4 li-category__title">Ж/д кріплення</h4></a></li>
       <li class="li-category__item"><a class="li-category__link" href="#"><img src="./assets/img/tool7.png" alt="#">
-        <h4 class="h4 li-category__title">скоби</h4></a></li>
+        <h4 class="h4 li-category__title">Скоби</h4></a></li>
       <li class="li-category__item"><a class="li-category__link" href="#"><img src="./assets/img/tool8.png" alt="#">
-        <h4 class="h4 li-category__title">дюбель цвях монтажний</h4></a></li>
+        <h4 class="h4 li-category__title">Дюбель цвях монтажний</h4></a></li>
       <li class="li-category__item"><a class="li-category__link" href="#"><img src="./assets/img/tool9.png" alt="#">
-        <h4 class="h4 li-category__title">Перфороване крIплення</h4></a></li>
+        <h4 class="h4 li-category__title">Перфороване кріплення</h4></a></li>
       <li class="li-category__item"><a class="li-category__link" href="#"><img src="./assets/img/tool10.png" alt="#">
-        <h4 class="h4 li-category__title">цвяхи</h4></a></li>
+        <h4 class="h4 li-category__title">Цвяхи</h4></a></li>
       <li class="li-category__item"><a class="li-category__link" href="#"><img src="./assets/img/tool310.png" alt="#">
-        <h4 class="h4 li-category__title">електроди</h4></a></li>
+        <h4 class="h4 li-category__title">Электроди</h4></a></li>
       <li class="li-category__item"><a class="li-category__link" href="#"><img src="./assets/img/tool11.png" alt="#">
-        <h4 class="h4 li-category__title">шайби</h4></a></li>
+        <h4 class="h4 li-category__title">Шайби</h4></a></li>
       <li class="li-category__item"><a class="li-category__link" href="#"><img src="./assets/img/tool12.png" alt="#">
         <h4 class="h4 li-category__title">Гайки</h4></a></li>
       <li class="li-category__item"><a class="li-category__link" href="#"><img src="./assets/img/tool13.png" alt="#">
         <h4 class="h4 li-category__title">Заклепки</h4></a></li>
       <li class="li-category__item"><a class="li-category__link" href="#"><img src="./assets/img/tool14.png" alt="#">
-        <h4 class="h4 li-category__title">штифти</h4></a></li>
+        <h4 class="h4 li-category__title">Штифи</h4></a></li>
       <li class="li-category__item"><a class="li-category__link" href="#"><img src="./assets/img/tool18.png" alt="#">
-        <h4 class="h4 li-category__title">хОМУТЫ</h4></a></li>
+        <h4 class="h4 li-category__title">Хомуты</h4></a></li>
       <li class="li-category__item"><a class="li-category__link" href="#"><img src="./assets/img/tool15.png" alt="#">
-        <h4 class="h4 li-category__title">ДюбелI</h4></a></li>
+        <h4 class="h4 li-category__title">Дюбелі</h4></a></li>
       <li class="li-category__item"><a class="li-category__link" href="#"><img src="./assets/img/tool16.png" alt="#">
         <h4 class="h4 li-category__title">Болти</h4></a></li>
      </ul>
@@ -260,33 +398,16 @@
     <div class="b-stock__wrapper">
      <div class="b-stock__filter">
       <ul class="li-filter">
-       <li class="li-filter__item"><a class="li-filter__link h2" href="#">Наша продукцIя</a></li>
-       <li class="li-filter__item"><a class="li-filter__link" href="#">ХIти продажIв</a></li>
-       <li class="li-filter__item"><a class="li-filter__link" href="#">новинки</a></li>
-       <li class="li-filter__item"><a class="li-filter__link" href="#">радимо</a></li>
-      </ul><a class="b-catalog__link" href="#">Перейти в каталог</a>
+       <li class="li-filter__item"><a class="li-filter__link h2" href="#">Наша продукція</a></li>
+       <li class="li-filter__item"><a class="li-filter__link" href="#">Хіти продажів</a></li>
+       <li class="li-filter__item"><a class="li-filter__link" href="#">Новинки</a></li>
+       <li class="li-filter__item"><a class="li-filter__link" href="#">Радимо</a></li>
+      </ul><a class="btn-icon btn-catalog-link" href="#">Перейти в каталог</a>
      </div>
      <ul class="li-products">
       <li class="li-products__item"><a class="li-products__link" href="#">
-        <div class="li-products__img"><img src="./assets/img/tool17.png" alt="#"></div>
+        <div class="li-products__img"><img src="./assets/img/tool19.png" alt="#"></div>
         <div class="li-products__title">Меблевий болт М8х180 4.6 цб кв. пiдг (din603)</div>
-        <ul class="li-review">
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-        </ul>
         <div class="li-products__count">Кількість 600 шт</div>
         <div class="li-products__footer">
          <div class="li-products__footer-outer">
@@ -296,25 +417,8 @@
          <button class="btn-add-cart" type="button"></button>
         </div></a></li>
       <li class="li-products__item"><a class="li-products__link" href="#">
-        <div class="li-products__img"><img src="./assets/img/tool17.png" alt="#"></div>
+        <div class="li-products__img"><img src="./assets/img/tool19.png" alt="#"></div>
         <div class="li-products__title">Меблевий болт М8х180 4.6 цб кв. пiдг (din603)</div>
-        <ul class="li-review">
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-        </ul>
         <div class="li-products__count">Кількість 600 шт</div>
         <div class="li-products__footer">
          <div class="li-products__footer-outer">
@@ -324,25 +428,8 @@
          <button class="btn-add-cart" type="button"></button>
         </div></a></li>
       <li class="li-products__item"><a class="li-products__link" href="#">
-        <div class="li-products__img"><img src="./assets/img/tool17.png" alt="#"></div>
+        <div class="li-products__img"><img src="./assets/img/tool19.png" alt="#"></div>
         <div class="li-products__title">Меблевий болт М8х180 4.6 цб кв. пiдг (din603)</div>
-        <ul class="li-review">
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-        </ul>
         <div class="li-products__count">Кількість 600 шт</div>
         <div class="li-products__footer">
          <div class="li-products__footer-outer">
@@ -352,25 +439,8 @@
          <button class="btn-add-cart" type="button"></button>
         </div></a></li>
       <li class="li-products__item"><a class="li-products__link" href="#">
-        <div class="li-products__img"><img src="./assets/img/tool17.png" alt="#"></div>
+        <div class="li-products__img"><img src="./assets/img/tool19.png" alt="#"></div>
         <div class="li-products__title">Меблевий болт М8х180 4.6 цб кв. пiдг (din603)</div>
-        <ul class="li-review">
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-        </ul>
         <div class="li-products__count">Кількість 600 шт</div>
         <div class="li-products__footer">
          <div class="li-products__footer-outer">
@@ -380,25 +450,8 @@
          <button class="btn-add-cart" type="button"></button>
         </div></a></li>
       <li class="li-products__item"><a class="li-products__link" href="#">
-        <div class="li-products__img"><img src="./assets/img/tool17.png" alt="#"></div>
+        <div class="li-products__img"><img src="./assets/img/tool19.png" alt="#"></div>
         <div class="li-products__title">Меблевий болт М8х180 4.6 цб кв. пiдг (din603)</div>
-        <ul class="li-review">
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-        </ul>
         <div class="li-products__count">Кількість 600 шт</div>
         <div class="li-products__footer">
          <div class="li-products__footer-outer">
@@ -409,29 +462,12 @@
         </div></a></li>
      </ul>
      <div class="b-stock__bestseller">
-        <h2 class="h2 b-stock__bestseller-title">лIдер продажу</h2><a class="b-catalog__link" href="#">Перейти в каталог</a>
+        <h2 class="h2 b-stock__bestseller-title">Лідер продажу</h2><a class="btn-icon btn-catalog-link" href="#">Перейти в каталог</a>
      </div>
      <ul class="li-products">
       <li class="li-products__item"><a class="li-products__link" href="#">
-        <div class="li-products__img"><img src="./assets/img/tool17.png" alt="#"></div>
+        <div class="li-products__img"><img src="./assets/img/tool19.png" alt="#"></div>
         <div class="li-products__title">Меблевий болт М8х180 4.6 цб кв. пiдг (din603)</div>
-        <ul class="li-review">
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-        </ul>
         <div class="li-products__count">Кількість 600 шт</div>
         <div class="li-products__footer">
          <div class="li-products__footer-outer">
@@ -441,25 +477,8 @@
          <button class="btn-add-cart" type="button"></button>
         </div></a></li>
       <li class="li-products__item"><a class="li-products__link" href="#">
-        <div class="li-products__img"><img src="./assets/img/tool17.png" alt="#"></div>
+        <div class="li-products__img"><img src="./assets/img/tool19.png" alt="#"></div>
         <div class="li-products__title">Меблевий болт М8х180 4.6 цб кв. пiдг (din603)</div>
-        <ul class="li-review">
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-        </ul>
         <div class="li-products__count">Кількість 600 шт</div>
         <div class="li-products__footer">
          <div class="li-products__footer-outer">
@@ -469,25 +488,8 @@
          <button class="btn-add-cart" type="button"></button>
         </div></a></li>
       <li class="li-products__item"><a class="li-products__link" href="#">
-        <div class="li-products__img"><img src="./assets/img/tool17.png" alt="#"></div>
+        <div class="li-products__img"><img src="./assets/img/tool19.png" alt="#"></div>
         <div class="li-products__title">Меблевий болт М8х180 4.6 цб кв. пiдг (din603)</div>
-        <ul class="li-review">
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-        </ul>
         <div class="li-products__count">Кількість 600 шт</div>
         <div class="li-products__footer">
          <div class="li-products__footer-outer">
@@ -497,25 +499,8 @@
          <button class="btn-add-cart" type="button"></button>
         </div></a></li>
       <li class="li-products__item"><a class="li-products__link" href="#">
-        <div class="li-products__img"><img src="./assets/img/tool17.png" alt="#"></div>
+        <div class="li-products__img"><img src="./assets/img/tool19.png" alt="#"></div>
         <div class="li-products__title">Меблевий болт М8х180 4.6 цб кв. пiдг (din603)</div>
-        <ul class="li-review">
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-        </ul>
         <div class="li-products__count">Кількість 600 шт</div>
         <div class="li-products__footer">
          <div class="li-products__footer-outer">
@@ -525,25 +510,8 @@
          <button class="btn-add-cart" type="button"></button>
         </div></a></li>
       <li class="li-products__item"><a class="li-products__link" href="#">
-        <div class="li-products__img"><img src="./assets/img/tool17.png" alt="#"></div>
+        <div class="li-products__img"><img src="./assets/img/tool19.png" alt="#"></div>
         <div class="li-products__title">Меблевий болт М8х180 4.6 цб кв. пiдг (din603)</div>
-        <ul class="li-review">
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-         <li class="li-review__item">
-          <div class="li-review__icon"></div>
-         </li>
-        </ul>
         <div class="li-products__count">Кількість 600 шт</div>
         <div class="li-products__footer">
          <div class="li-products__footer-outer">
@@ -558,150 +526,66 @@
   </section>
   <section class="s-sale">
    <div class="container">
-    <div class="b-sale__wrapper"></div>
-      <h2 class="h2 b-sale__title">АкцIї</h2>
-    <ul class="li-products">
-     <li class="li-products__item"><a class="li-products__link" href="#">
-       <div class="li-products__img"><img src="./assets/img/tool17.png" alt="#"></div>
-       <div class="li-products__title">Меблевий болт М8х180 4.6 цб кв. пiдг (din603)</div>
-       <ul class="li-review">
-        <li class="li-review__item">
-         <div class="li-review__icon"></div>
-        </li>
-        <li class="li-review__item">
-         <div class="li-review__icon"></div>
-        </li>
-        <li class="li-review__item">
-         <div class="li-review__icon"></div>
-        </li>
-        <li class="li-review__item">
-         <div class="li-review__icon"></div>
-        </li>
-        <li class="li-review__item">
-         <div class="li-review__icon"></div>
-        </li>
-       </ul>
-       <div class="li-products__count">Кількість 600 шт</div>
-       <div class="li-products__footer">
-        <div class="li-products__footer-outer">
-         <div class="li-products__price">120₴</div>
-         <div class="li-products__text">є в наявності</div>
-        </div>
-        <button class="btn-add-cart" type="button"></button>
-       </div></a></li>
-     <li class="li-products__item"><a class="li-products__link" href="#">
-       <div class="li-products__img"><img src="./assets/img/tool17.png" alt="#"></div>
-       <div class="li-products__title">Меблевий болт М8х180 4.6 цб кв. пiдг (din603)</div>
-       <ul class="li-review">
-        <li class="li-review__item">
-         <div class="li-review__icon"></div>
-        </li>
-        <li class="li-review__item">
-         <div class="li-review__icon"></div>
-        </li>
-        <li class="li-review__item">
-         <div class="li-review__icon"></div>
-        </li>
-        <li class="li-review__item">
-         <div class="li-review__icon"></div>
-        </li>
-        <li class="li-review__item">
-         <div class="li-review__icon"></div>
-        </li>
-       </ul>
-       <div class="li-products__count">Кількість 600 шт</div>
-       <div class="li-products__footer">
-        <div class="li-products__footer-outer">
-         <div class="li-products__price">120₴</div>
-         <div class="li-products__text">є в наявності</div>
-        </div>
-        <button class="btn-add-cart" type="button"></button>
-       </div></a></li>
-     <li class="li-products__item"><a class="li-products__link" href="#">
-       <div class="li-products__img"><img src="./assets/img/tool17.png" alt="#"></div>
-       <div class="li-products__title">Меблевий болт М8х180 4.6 цб кв. пiдг (din603)</div>
-       <ul class="li-review">
-        <li class="li-review__item">
-         <div class="li-review__icon"></div>
-        </li>
-        <li class="li-review__item">
-         <div class="li-review__icon"></div>
-        </li>
-        <li class="li-review__item">
-         <div class="li-review__icon"></div>
-        </li>
-        <li class="li-review__item">
-         <div class="li-review__icon"></div>
-        </li>
-        <li class="li-review__item">
-         <div class="li-review__icon"></div>
-        </li>
-       </ul>
-       <div class="li-products__count">Кількість 600 шт</div>
-       <div class="li-products__footer">
-        <div class="li-products__footer-outer">
-         <div class="li-products__price">120₴</div>
-         <div class="li-products__text">є в наявності</div>
-        </div>
-        <button class="btn-add-cart" type="button"></button>
-       </div></a></li>
-     <li class="li-products__item"><a class="li-products__link" href="#">
-       <div class="li-products__img"><img src="./assets/img/tool17.png" alt="#"></div>
-       <div class="li-products__title">Меблевий болт М8х180 4.6 цб кв. пiдг (din603)</div>
-       <ul class="li-review">
-        <li class="li-review__item">
-         <div class="li-review__icon"></div>
-        </li>
-        <li class="li-review__item">
-         <div class="li-review__icon"></div>
-        </li>
-        <li class="li-review__item">
-         <div class="li-review__icon"></div>
-        </li>
-        <li class="li-review__item">
-         <div class="li-review__icon"></div>
-        </li>
-        <li class="li-review__item">
-         <div class="li-review__icon"></div>
-        </li>
-       </ul>
-       <div class="li-products__count">Кількість 600 шт</div>
-       <div class="li-products__footer">
-        <div class="li-products__footer-outer">
-         <div class="li-products__price">120₴</div>
-         <div class="li-products__text">є в наявності</div>
-        </div>
-        <button class="btn-add-cart" type="button"></button>
-       </div></a></li>
-     <li class="li-products__item"><a class="li-products__link" href="#">
-       <div class="li-products__img"><img src="./assets/img/tool17.png" alt="#"></div>
-       <div class="li-products__title">Меблевий болт М8х180 4.6 цб кв. пiдг (din603)</div>
-       <ul class="li-review">
-        <li class="li-review__item">
-         <div class="li-review__icon"></div>
-        </li>
-        <li class="li-review__item">
-         <div class="li-review__icon"></div>
-        </li>
-        <li class="li-review__item">
-         <div class="li-review__icon"></div>
-        </li>
-        <li class="li-review__item">
-         <div class="li-review__icon"></div>
-        </li>
-        <li class="li-review__item">
-         <div class="li-review__icon"></div>
-        </li>
-       </ul>
-       <div class="li-products__count">Кількість 600 шт</div>
-       <div class="li-products__footer">
-        <div class="li-products__footer-outer">
-         <div class="li-products__price">120₴</div>
-         <div class="li-products__text">є в наявності</div>
-        </div>
-        <button class="btn-add-cart" type="button"></button>
-       </div></a></li>
-    </ul>
+    <div class="b-sale__wrapper">
+       <h2 class="h2 b-sale__title">Акції</h2>
+     <ul class="li-products">
+      <li class="li-products__item"><a class="li-products__link" href="#">
+        <div class="li-products__img"><img src="./assets/img/tool19.png" alt="#"></div>
+        <div class="li-products__title">Меблевий болт М8х180 4.6 цб кв. пiдг (din603)</div>
+        <div class="li-products__count">Кількість 600 шт</div>
+        <div class="li-products__footer">
+         <div class="li-products__footer-outer">
+          <div class="li-products__price">120₴</div>
+          <div class="li-products__text">є в наявності</div>
+         </div>
+         <button class="btn-add-cart" type="button"></button>
+        </div></a></li>
+      <li class="li-products__item"><a class="li-products__link" href="#">
+        <div class="li-products__img"><img src="./assets/img/tool19.png" alt="#"></div>
+        <div class="li-products__title">Меблевий болт М8х180 4.6 цб кв. пiдг (din603)</div>
+        <div class="li-products__count">Кількість 600 шт</div>
+        <div class="li-products__footer">
+         <div class="li-products__footer-outer">
+          <div class="li-products__price">120₴</div>
+          <div class="li-products__text">є в наявності</div>
+         </div>
+         <button class="btn-add-cart" type="button"></button>
+        </div></a></li>
+      <li class="li-products__item"><a class="li-products__link" href="#">
+        <div class="li-products__img"><img src="./assets/img/tool19.png" alt="#"></div>
+        <div class="li-products__title">Меблевий болт М8х180 4.6 цб кв. пiдг (din603)</div>
+        <div class="li-products__count">Кількість 600 шт</div>
+        <div class="li-products__footer">
+         <div class="li-products__footer-outer">
+          <div class="li-products__price">120₴</div>
+          <div class="li-products__text">є в наявності</div>
+         </div>
+         <button class="btn-add-cart" type="button"></button>
+        </div></a></li>
+      <li class="li-products__item"><a class="li-products__link" href="#">
+        <div class="li-products__img"><img src="./assets/img/tool19.png" alt="#"></div>
+        <div class="li-products__title">Меблевий болт М8х180 4.6 цб кв. пiдг (din603)</div>
+        <div class="li-products__count">Кількість 600 шт</div>
+        <div class="li-products__footer">
+         <div class="li-products__footer-outer">
+          <div class="li-products__price">120₴</div>
+          <div class="li-products__text">є в наявності</div>
+         </div>
+         <button class="btn-add-cart" type="button"></button>
+        </div></a></li>
+      <li class="li-products__item"><a class="li-products__link" href="#">
+        <div class="li-products__img"><img src="./assets/img/tool19.png" alt="#"></div>
+        <div class="li-products__title">Меблевий болт М8х180 4.6 цб кв. пiдг (din603)</div>
+        <div class="li-products__count">Кількість 600 шт</div>
+        <div class="li-products__footer">
+         <div class="li-products__footer-outer">
+          <div class="li-products__price">120₴</div>
+          <div class="li-products__text">є в наявності</div>
+         </div>
+         <button class="btn-add-cart" type="button"></button>
+        </div></a></li>
+     </ul>
+    </div>
    </div>
   </section>
   <section class="s-about">
@@ -711,11 +595,14 @@
      <div class="b-about__subtitle"> Купити метизи від постачальника в Києві та Україні.</div>
      <p>Ми - динамічно зростаючий оптово-роздрібний інтернет- магазин кріплення та метизів, у вашому розпорядженні великий вибір метизів, кріплення, зручна доставка по Україні. Більше 10000 шурупів, саморізів, інструменту, такелажу, та інших метизів завжди в наявності. Швидка відправка та доставка по Україні. У нашому арсеналі: висококваліфіковані фахівці, готові належним чином, в найкоротші терміни відреагувати на Ваш запит; налагоджена робота системи складування метизів і кріплення дозволяє прискорити процес обслуговування наших клієнтів за рахунок використання інноваційних логістичних технологій і сучасного обладнання;підтримуємо постійну наявність на складі необхідного запасу.<a class="b-about__more" href="#">читать полностью</a></p>
      <div class="b-about__text">SAVVATS - кріплення, метизи, шурупи, купити оптом від постачальника. Інтернет магазин САВВАТС металовироби.</div>
-     <p>Компанія SAVVATS - працює на ринку кріпильних елементів з 1992 року. Наша компанія надає якісні кріплення для будівництва, ремонту, виробництва вже більше 15 років. Для кожного клієнта ми надаємо високоякісний сервіс, а саме: - найширший асортимент кріплень і металовиробів - високий рівень контролю якості продукції - кращі ціни для оптових і роздрібних покупців</p>
+     <p>Компанія SAVVATS - працює на ринку кріпильних елементів з 1992 року. Наша компанія надає якісні кріплення для будівництва, ремонту, виробництва вже більше 15 років. Для кожного клієнта ми надаємо високоякісний сервіс, а саме:<br> - найширший асортимент кріплень і металовиробів<br> - високий рівень контролю якості продукції <br>- кращі ціни для оптових і роздрібних покупців</p>
     </div>
    </div>
   </section>
   <footer class="footer">
+   <div class="b-top">
+    <div class="container"><a class="b-top__link" href="#"></a></div>
+   </div>
    <div class="footer__art-left"><img src="./assets/img/art2.png" alt="#"></div>
    <div class="footer__art-right"><img src="./assets/img/art1.png" alt="#"></div>
    <div class="container">
