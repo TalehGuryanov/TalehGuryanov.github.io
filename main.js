@@ -32,14 +32,22 @@ document.addEventListener('keydown', (e) => {
 })
 
 
-import * as Tesseract  from '/tesseract.min.js';
+import { createWorker } from 'tesseract.js';
 
-// Распознавание изображения
-function recognize(file, lang, logger) {
-  return Tesseract.recognize(file, lang, {logger})
-   .then(({ data: {text }}) => {
-     return text;
-   })
+const worker = createWorker({
+  logger: (data) => console.log(data)
+});
+
+async function recognize() {
+  const file = document.getElementById('file').files[0];
+  const lang = document.getElementById('langs').value;
+  await worker.load();
+  await worker.loadLanguage(lang);
+  await worker.initialize(lang);
+  const { data: { text } } = await worker.recognize(file);
+  console.log(text);
+  await worker.terminate();
+  return text;
 }
 
 const log = document.getElementById('log');
