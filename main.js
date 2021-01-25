@@ -32,7 +32,7 @@ document.addEventListener('keydown', (e) => {
 })
 
 
-import { createWorker } from 'tesseract.js';
+import { createWorker } from '/tesseract.min.js';
 
 const worker = createWorker({
   logger: (data) => console.log(data)
