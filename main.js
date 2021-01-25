@@ -1,5 +1,3 @@
-'use strict'
-
 const navMenu = document.querySelector('.n-nav');
 const btnOpen = document.querySelector('.btn-menu');
 const menu = document.querySelector('.li-menu');
