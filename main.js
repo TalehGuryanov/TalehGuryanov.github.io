@@ -31,8 +31,8 @@ document.addEventListener('keydown', (e) => {
   }
 })
 
-	
-import { Tesseract } from '/tesseract.min.js';
+
+import * as Tesseract  from '/tesseract.min.js';
 
 // Распознавание изображения
 function recognize(file, lang, logger) {
