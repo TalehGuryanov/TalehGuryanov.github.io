@@ -325,11 +325,24 @@
 		</div>
 
 		<div class="container">
-			<input type="file" id="ocr_url" accept="image/*" />
-			<input type="button" id="ocr_button" value="Распознать текст" />
-			<div id="ocr_result"></div>
+			<div class="tessarect" style="padding-bottom: 50px;">
+				<!-- селект для выбора языка -->
+				<select id="langs">
+					<option value="rus" selected>Русский</option>
+					<option value="eng">English</option>
+				</select>
+
+				<!-- инпут для загрузки файла изображения -->
+				<input type="file" id="file" />
+
+				<!-- лог процесса обработки и вывод результата -->
+				<div id="log"></div>
+
+				<!-- кнопка Начать обработку -->
+				<button type="button" id="start">Начать обработку</button>
+			</div>
 		</div>
-		<script src="tesseract.js"></script>
-		<script src="main.js"></script>
+		<script src="tesseract.min.js"></script>
+		<script type="module" src="main.js"></script>
 	</body>
 </html>

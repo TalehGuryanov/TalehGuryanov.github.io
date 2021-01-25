@@ -32,28 +32,44 @@ document.addEventListener('keydown', (e) => {
 })
 
 	
-window.onload = function() {
-  
-  document.getElementById("ocr_url").value = ""; // Сбрасываем форму после перезагрузки
-  
-  var control = document.getElementById("ocr_url");
-  
-  control.addEventListener("change", function() {
-  
-    var files = control.files;
+import Tesseract from 'tesseract.js';
 
-    document.getElementById("ocr_button").addEventListener("click", function() {
-      
-      document.getElementById("ocr_result").innerHTML  = "Идет распознавание текста...";
-    
-      Tesseract.recognize(files[0].name).then(function(result) {
-  
-        document.getElementById("ocr_result").innerHTML  = result.text; 
-  
-      });
-  
-    });
+// Распознавание изображения
+function recognize(file, lang, logger) {
+  return Tesseract.recognize(file, lang, {logger})
+   .then(({ data: {text }}) => {
+     return text;
+   })
+}
 
-  });
-  
-};
+const log = document.getElementById('log');
+
+// Отслеживание прогресса обработки
+function updateProgress(data) {
+  log.innerHTML = '';
+  const statusText = document.createTextNode(data.status);
+  const progress = document.createElement('progress');
+  progress.max = 1;
+  progress.value = data.progress;
+  log.appendChild(statusText);
+  log.appendChild(progress);
+}
+
+// Вывод результата
+function setResult(text) {
+  log.innerHTML = '';
+  text = text.replace(/\n\s*\n/g, '\n');
+  const pre = document.createElement('pre');
+  pre.innerHTML = text;
+  log.appendChild(pre);
+}
+
+document.getElementById('start').addEventListener('click', () => {
+  const file = document.getElementById('file').files[0];
+  if (!file) return;
+
+  const lang = document.getElementById('langs').value;
+
+  recognize(file, lang, updateProgress)
+    .then(setResult);
+});
