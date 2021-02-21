@@ -182,6 +182,11 @@ body {
   padding: 0 10px;
 }
 
+.work-list {
+  color: #ff0000;
+  font-weight: 700;
+}
+
 @media screen and (min-width: 600px) {
   .li-social__item:hover .li-social__link {
     background-color: #f9f9f9;

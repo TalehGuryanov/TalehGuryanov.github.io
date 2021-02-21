@@ -1,13 +1,16 @@
 const navMenu = document.querySelector('.n-nav');
-const btnOpen = document.querySelector('.btn-menu');
+const btnOpen = document.querySelectorAll('[data-toggle="worklist"]');
 const menu = document.querySelector('.li-menu');
 const btnClose = document.querySelector('.btn-close');
 
-btnOpen.addEventListener('click', (e) => {
-  navMenu.classList.add('--open')
-  menu.classList.add('--drop')
-  btnClose.classList.add('--show')
-})
+for(elem of btnOpen) {
+  elem.addEventListener('click', (e) => {
+    e.preventDefault();
+    navMenu.classList.add('--open')
+    menu.classList.add('--drop')
+    btnClose.classList.add('--show')
+  })
+}
 
 btnClose.addEventListener('click', (e) => {
   navMenu.classList.remove('--open')
