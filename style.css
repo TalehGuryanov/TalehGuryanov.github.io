@@ -291,11 +291,12 @@ body {
 
 .li-info__link {
   width: fit-content;
-  transition: font-weight .3s;
+  transition: color .3s;
 }
 
 .li-info__item:hover .li-info__link {
-  font-weight: 700;
+  color: #ff0000;
+  text-decoration: underline;
 }
 
 .li-info__item + .li-info__item {
