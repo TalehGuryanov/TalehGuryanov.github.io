@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3315361d-74f6-491d-b87e-cfbb67a31565" name="Default Changelist" comment="fix conflicts" />
+    <list default="true" id="3315361d-74f6-491d-b87e-cfbb67a31565" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -40,13 +43,14 @@
       <option name="presentableId" value="Default" />
       <updated>1615968265258</updated>
       <workItem from="1621845756109" duration="189000" />
+      <workItem from="1622778585829" duration="95000" />
     </task>
-    <task id="LOCAL-00001" summary="fix conflicts">
-      <created>1621847789174</created>
+    <task id="LOCAL-00001" summary="test commits">
+      <created>1621847397397</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1621847789174</updated>
+      <updated>1621847397397</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -65,9 +69,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix conflicts" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix conflicts" />
   </component>
 </project>
