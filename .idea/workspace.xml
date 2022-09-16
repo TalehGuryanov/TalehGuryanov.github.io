@@ -1,7 +1,328 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3315361d-74f6-491d-b87e-cfbb67a31565" name="Default Changelist" comment="" />
+    <list default="true" id="3315361d-74f6-491d-b87e-cfbb67a31565" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/arrow-down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/arrow-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/arrow-more.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/arrow-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/arrow-top.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/bolt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/brand.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/cart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/certificate.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/google.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/kyivstar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/link.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/listing.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/location.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/log-out.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/mts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/phone-block.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/phone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/quality.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/sale.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/sertify.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/ship.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/star.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/icons/twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/art1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/art2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/art3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/art4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/art5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/bolt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/clamps1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/clamps2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/dowels.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/glue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/left-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/nut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/right-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/rivets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/screws.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/slider1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/slider2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/slider3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/tackle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/tool1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/tool10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/tool11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/tool12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/tool13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/tool14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/tool15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/tool16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/tool17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/tool18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/tool19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/tool2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/tool3.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/tool3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/tool310.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/tool4.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/tool4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/tool5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/tool6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/tool7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/tool8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/tool9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/assets/img/tools.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/css/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/fonts/BebasNeueBold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/fonts/BebasNeueBook.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/fonts/BebasNeueLight.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/fonts/BebasNeueRegular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/fonts/BebasNeueThin.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/js/main.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/libs/jquery/jquery-3.5.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/libs/slick/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/libs/slick/fonts/slick.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/libs/slick/fonts/slick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/libs/slick/fonts/slick.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/libs/slick/fonts/slick.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/libs/slick/slick-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/libs/slick/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/libs/slick/slick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/libs/slick/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/CABBATC/build/libs/tel-mask/jquery.maskedinput.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/.pug-lint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/.stylelintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/css/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/a1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/alfa.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/build.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/business.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/conf.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/consultation.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/cup.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/deal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/debt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/favorite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/feedback.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/iba.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/insta.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/license.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/mts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/ok.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/organization.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/pen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/protect.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/rent.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/reputation.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/sale.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/score.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/select-arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/slider-arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/social.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/stamp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/team.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/titan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/viber.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/view.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/vk.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/wats-app.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/icon/youtube.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/img/alfa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/img/bau.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/img/favorit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/img/iba.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/img/rectangle1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/img/rectangle10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/img/rectangle11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/img/rectangle12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/img/rectangle13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/img/rectangle14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/img/rectangle2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/img/rectangle3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/img/rectangle4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/img/rectangle5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/img/rectangle6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/img/rectangle7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/img/rectangle8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/img/rectangle9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/img/img/titan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/js/main.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/libs/jquery/jquery-3.5.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/libs/slick/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/libs/slick/fonts/slick.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/libs/slick/fonts/slick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/libs/slick/fonts/slick.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/libs/slick/fonts/slick.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/libs/slick/slick-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/libs/slick/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/libs/slick/slick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/libs/slick/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/build/libs/tel-mask/jquery.maskedinput.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/gulp/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/gulp/tasks/clean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/gulp/tasks/fonts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/gulp/tasks/imageMinify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/gulp/tasks/libs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/gulp/tasks/lighthouse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/gulp/tasks/pug2html.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/gulp/tasks/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/gulp/tasks/serve.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/gulp/tasks/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/gulp/tasks/svgSprite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/a1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/alfa.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/build.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/business.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/conf.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/consultation.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/cup.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/deal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/debt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/favorite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/feedback.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/iba.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/insta.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/license.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/mts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/ok.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/organization.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/pen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/protect.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/rent.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/reputation.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/sale.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/score.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/select-arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/slider-arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/social.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/stamp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/team.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/titan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/viber.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/view.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/vk.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/wats-app.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/icon/youtube.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/img/alfa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/img/bau.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/img/favorit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/img/iba.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/img/rectangle1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/img/rectangle10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/img/rectangle11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/img/rectangle12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/img/rectangle13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/img/rectangle14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/img/rectangle2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/img/rectangle3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/img/rectangle4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/img/rectangle5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/img/rectangle6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/img/rectangle7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/img/rectangle8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/img/rectangle9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/img/img/titan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/libs/jquery/jquery-3.5.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/libs/slick/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/libs/slick/fonts/slick.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/libs/slick/fonts/slick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/libs/slick/fonts/slick.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/libs/slick/fonts/slick.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/libs/slick/slick-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/libs/slick/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/libs/slick/slick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/libs/slick/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/libs/tel-mask/jquery.maskedinput.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/block/section-about.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/block/section-advantage.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/block/section-review.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/block/section-services.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/block/section-triangle.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/block/section-trust.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/common/footer.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/common/header.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/common/layout.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/common/script.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/components/activity/activity-list.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/components/activity/activity-slider.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/components/advantage/advantage.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/components/buttons/button-link.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/components/buttons/button.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/components/consultation/consultation.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/components/cooperation/cooperation.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/components/excellence/excellence.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/components/intro/intro.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/components/main-slider/main-slider.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/components/partners/partners.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/components/price/price.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/components/reviews/reviews.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/components/services/services.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/components/triangle/triangle.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/components/trust/client-get.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/components/trust/trust.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/pages/index.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/styles/common/footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/styles/common/header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/styles/common/reset.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/styles/components/activity-list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/styles/components/activity-slider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/styles/components/advantage.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/styles/components/buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/styles/components/consultation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/styles/components/cooperation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/styles/components/excellence.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/styles/components/form-search.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/styles/components/intro.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/styles/components/main-slider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/styles/components/partners.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/styles/components/price.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/styles/components/reviews.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/styles/components/sections.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/styles/components/services.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/styles/components/title.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/styles/components/triangle.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/styles/components/trust.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/styles/mixins/media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/styles/mixins/mixin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/styles/mixins/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/MK/src/styles/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/calculator/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/calculator/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/works/calculator/style.css" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +335,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1psOHjQNvw7Ypti0zjorn1jwIeu" />
   <component name="ProjectLevelVcsManager">
@@ -30,6 +354,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -46,6 +375,7 @@
       <updated>1615968265258</updated>
       <workItem from="1621845756109" duration="189000" />
       <workItem from="1622778585829" duration="95000" />
+      <workItem from="1663313956338" duration="1452000" />
     </task>
     <task id="LOCAL-00001" summary="test commits">
       <created>1621847397397</created>
@@ -70,6 +400,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
