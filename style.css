@@ -1,7 +1,7 @@
 body {
   position: relative;
 	font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
   height: fit-content;
@@ -158,9 +158,10 @@ body {
 }
  
 .b-header__name {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
+  margin: 0 0 10px;
 }
 
 .b-header__profession {
@@ -172,6 +173,7 @@ body {
 
 .li-social {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   margin: 0 -10px 30px;
   height: 40px;
@@ -216,10 +218,6 @@ body {
   background-image: url(images/github.svg);
 }
 
-.li-social__link.--vk {
-  background-image: url(images/vk.svg);
-}
-
 .li-social__link.--telegram {
   background-image: url(images/telegram.svg);
 }
@@ -234,6 +232,56 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   border-bottom: 2px solid #ff0000;
+}
+
+.b-summary__list {
+  list-style: none;
+  display: block;
+  margin: 0 0 10px;
+}
+
+.b-summary__list-item {
+  display: block;
+}
+
+.b-summary__list-item + .b-summary__list-item {
+  margin: 10px 0 0;
+  border-top: 1px solid blue;
+  padding: 15px 0 0;
+}
+
+.b-summary__list-item-header {
+  display: flex;
+  align-items: center;
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.b-summary__list-item-header-title {
+  margin: 0 10px 0 0;
+}
+
+.b-summary__list-item-header-date {
+  color: blue;
+}
+
+.b-summary__list-item-text {
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0 0 5px;
+}
+
+.b-summary__list-item-inner-list {
+  display: block;
+  margin: 0 0 0 20px;
+}
+
+.b-summary__list-item-inner-list-item {
+  list-style-type: disc;
+  display: list-item;
+  padding: 5px 0;
 }
 
 .b-summary__text {
@@ -282,11 +330,16 @@ body {
   width: 45%;
 }
 
+.li-info {
+  margin: 0 0 0 20px;
+}
+
 .li-info__item {
-  display: flex;
+  display: list-item;
   width: fit-content;
-  align-items: center;
   font-size: 16px;
+  padding: 5px 0;
+  list-style-type: disc;
 }
 
 .li-info__link {
@@ -297,17 +350,6 @@ body {
 .li-info__item:hover .li-info__link {
   color: #ff0000;
   text-decoration: underline;
-}
-
-.li-info__item + .li-info__item {
-  margin-top: 5px;
-}
-
-
-.li-info__item::before {
-  content: '\2022';
-  margin-right: 5px;
-  font-weight: 700;
 }
 
 .b-summary__link {
